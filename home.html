@@ -6,28 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/037eb147d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="owlcarousel/assets/scriptc.js"></script>
     <link rel="stylesheet" href="../css/home.css" />
 </head>
 
-<!-- <body>
-    <div id="menu-bar">
-        <div id="menu" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-        </div>
-        <ul class="nav" id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <div class="menu-bg" id="menu-bg"></div>
-    <script src="script.js"></script>
-</body> -->
+<body>
+    <header class="bg-img">
+        <nav class="navbar navbar-expand-lg navbar-light desktop-nav">
+            <a class="navbar-brand" href="#">
+                <img src="img/header-logo.png" class="logos" alt="" />
+                <strong> FindHouse </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-center mt-2" style="width: 100%">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <strong>Home </strong> </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <strong>Listing </strong> </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <strong>Property </strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <strong>Pages </strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <strong>Blog </strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <strong>Contact </strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                            <i class="fas fa-user"></i>Login/Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="mobile-nav">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Listing</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login/Register</a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </nav>
+        <!-- mobile nav bitdi -->
+        <!-- taps basladi -->
 
-<body></body>
+    </header>
+    <main>
+        <section>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>1</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>2</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>3</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>4</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>5</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>6</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>7</h4>
+                </div>
+                <div class="item">
+                    <img src="https://grandetest.com/theme/findhouse-html/images/property/fp2.jpg" alt="">
+                    <h4>8</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+</body>
 
 </html>
