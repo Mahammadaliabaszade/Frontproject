@@ -1,6 +1,6 @@
 body {
-    height: 3000px;
-    background-color: white;
+    height: 2000px;
+    background-color: rgba(158, 156, 156, 0.575);
 }
 
 .logos {
@@ -158,113 +158,139 @@ body {
     display: block;
 }
 
-//    navbarin csssleri
-.free {
-    background-color: white;
+// esas hisse basladii
+// diqqetli bax sonra sehv salma bu navdan asagi hissenin cssleridi
+.breadtext {
+    margin-bottom: 40px;
 }
 
-.simp {
-    color: red;
+.breadblog {
+    font-size: 28px;
 }
 
-.wite {
-    background-color: white;
+section {
+    padding: 60px 0;
+    position: relative;
 }
 
-.simple {
-    margin-top: 3%;
-    color: gray;
-}
-
-.wite2 {
-    background-color: white;
-}
-
-.dropdown-menu {
-    max-height: 286px;
-    overflow: hidden;
-    min-height: 122px;
-}
-
-.inner {
-    max-height: 268px;
-    overflow-y: auto;
-    min-height: 104px;
-}
-
-.qirmizi {
-    width: 150px;
-    height: 40px;
-    background-color: red !important;
-    border-color: red;
-    color: white;
-}
-
-.qirmizi:hover {
-    background-color: white !important;
-}
-
-.accordion-toggle {
+.qaradi {
+    color: gray !important;
     font-size: 20px;
-    color: gray;
+    text-decoration: none;
 }
 
-.accordion-toggle:hover {
-    color: gray;
+.redtext {
+    color: red !important;
+    font-size: 20px;
 }
 
-.sidebar_listing_list {
-    border: 1px solid rgb(235, 235, 235);
-    border-radius: 8px;
+.breadyazi {
+    margin-right: 6%;
+}
+
+.breadblog {
+    margin-left: 5%;
+}
+
+.blog1 {
     background-color: #ffffff;
-    margin-bottom: 20px;
-    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
 }
 
-.sasw_list .search_area input {
-    background-color: #ffffff;
-    border: 1px solid rgb(235, 235, 235);
-    border-radius: 8px;
+.blogpart {
+    .sekil {
+        background-color: #1d293e;
+        border-radius: 7px;
+        display: flex;
+        overflow: hidden;
+        margin: 10px 10px 0 10px;
+        position: relative;
+    }
+}
+
+.imgd {
+    width: 100% !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.const {
+    background-color: #ff5a5f;
+    border-radius: 3px;
+    color: rgb(254, 254, 254);
+    font-family: "Nunito";
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 110px;
+}
+
+.umumiblog {
+    .soz {
+        position: relative;
+    }
+}
+
+.sozler2 {
+    font-size: 17px;
+    font-family: "Nunito";
+    color: #484848;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sozler3 {
     font-size: 14px;
     font-family: "Nunito";
     color: #484848;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.sonluq {
+    border-top: 1px solid #eeeeee;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.hey {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: #777777;
     line-height: 1.2;
-    height: 52px;
-    padding-left: 10px;
 }
 
-.sasw_list .search_area label {
-    font-size: 18px;
-    position: absolute;
-    right: 40px;
-    top: 30px;
+.balacasekil {
+    max-width: 100%;
 }
 
-.ikonka {
-    font-size: 18px;
-    position: absolute;
-    right: 20px;
-    top: 10px;
+.readm {
+    color: red !important;
 }
 
-.search_option_two {
-    height: 50px;
-    width: 100px;
-    margin-bottom: 20px !important;
+.fp_meta {
+    margin-bottom: 0% !important;
+    margin-right: 0% !important;
 }
 
-.show-tick {
-    height: 50px !important;
-    width: 240px !important;
+.list-inline-item {
+    margin-right: 10px;
 }
 
-.dropdown-menu {
-    max-height: 301px;
-    overflow: hidden;
-    min-height: 122px;
-    position: absolute;
-    transform: translate3d(0px, 52px, 0px);
-    top: 0px;
-    left: 0px;
-    will-change: transform;
+.float-left {
+    float: left !important;
 }
