@@ -17,9 +17,11 @@ body {
     }
 }
 
-.fas {
+.fa-user-circle {
     color: gray !important;
-    margin-right: 4px;
+    position: absolute;
+    left: 77% !important;
+    top: 43% !important;
 }
 
 .nav-item {
@@ -158,6 +160,25 @@ body {
     display: block;
 }
 
+.sekil {
+    margin-left: 15%;
+    margin-top: 4%;
+    text-decoration-color: gray;
+}
+
+.ag {
+    background-color: white;
+}
+
+.fa-user {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    color: gray;
+    background-color: white;
+}
+
 // esas hisse basladii
 // diqqetli bax sonra sehv salma bu navdan asagi hissenin cssleridi
 .breadtext {
@@ -293,4 +314,171 @@ img {
 
 .float-left {
     float: left !important;
+}
+
+.mbp_pagination ul.page_navigation li.page-item {
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 12px;
+}
+
+.mbp_pagination {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.page_navigation {
+    margin-left: 15%;
+}
+
+.align-self-start {
+    max-width: 100% !important;
+}
+
+// sag terefi sekilden sagdan hisse col lg 4
+.search1 {
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.salamla {
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    background-color: #ffffff;
+    flex: 1;
+    height: 52px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+#button-addon2 {
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    border-left: transparent !important;
+    border-right: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    height: 52px;
+}
+
+.condition {
+    background-color: #ffffff !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px !important;
+    padding: 20px 20px 20px !important;
+    position: relative;
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #ffffff !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px !important;
+    padding: 20px 20px 20px !important;
+    position: relative;
+    margin-top: 20px;
+}
+
+.condition .title {
+    margin-bottom: 20px;
+}
+
+.fa-caret-right {
+    color: gray !important;
+}
+
+.tag {
+    background-color: #ffffff !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px !important;
+    padding: 20px 20px 20px !important;
+    position: relative;
+    margin-top: 20px;
+}
+
+.titles {
+    font-size: 18px;
+    font-family: "Nunito";
+    color: #484848;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.list-inline-items {
+    border-radius: 6px;
+    background-color: rgb(227, 227, 227);
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding: 0px 25px;
+}
+
+// footerin cssleri
+.footerhisse {
+    background-color: #24324a;
+}
+
+.sosial {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.uc {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: #8a99b3;
+    line-height: 2.429;
+    transition: all 0.3s ease 0s;
+}
+
+.uc:hover {
+    color: white;
+}
+
+.dord {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: #8a99b3;
+    line-height: 2.5;
+}
+
+.btn-primary {
+    background-color: #354765 !important;
+    border: 1px solid #354765 !important;
+    border-radius: 50%;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.salams {
+    background-color: #354765 !important;
+    border: 1px solid #354765;
+    border-radius: 25px;
+    color: #354765 !important;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.salams:hover {
+    background-color: #354765 !important;
+}
+
+.footerarea {
+    background-color: #1a263a;
+}
+
+.bes {
+    color: gray;
+}
+
+.bes:hover {
+    color: white;
 }
