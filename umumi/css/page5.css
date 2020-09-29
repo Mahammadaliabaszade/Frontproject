@@ -1,6 +1,6 @@
 body {
-  height: 3000px;
-  background-color: rgba(158, 156, 156, 0.575);
+  height: 2000px;
+  background-color: #f7f7f7;
 }
 
 .logos {
@@ -25,20 +25,6 @@ body {
 .nav-item .nav-link {
   margin-left: 16px;
   color: gray !important;
-}
-
-.search9 {
-  background-color: #ffffff;
-  border: 1px solid #ebebeb;
-  border-radius: 8px;
-  height: 62px;
-  margin: 0 auto 30px;
-  padding: 0 15px;
-  position: relative;
-  width: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .mobile-nav {
@@ -199,113 +185,186 @@ body {
   background-color: white;
 }
 
-.free {
-  background-color: white;
+.umumikartinka {
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09);
 }
 
-.simp {
-  color: red;
+.agentsek {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
 }
 
-.wite {
-  background-color: white;
+.agent1 {
+  max-width: 100% !important;
 }
 
-.simple {
-  margin-top: 3%;
-  color: gray;
+.listin {
+  position: absolute;
+  left: 12px !important;
+  top: 10px !important;
+  list-style: none;
+  padding-top: 10px;
 }
 
-.wite2 {
-  background-color: white;
+.listinli {
+  background-color: #ff5a5f !important;
+  margin-right: 0 !important;
+  border-radius: 3px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 75px;
 }
 
-.dropdown-menu {
-  max-height: 286px;
-  overflow: hidden;
-  min-height: 122px;
-}
-
-.inner {
-  max-height: 268px;
-  overflow-y: auto;
-  min-height: 104px;
-}
-
-.qirmizi {
-  width: 150px;
-  height: 40px;
-  background-color: red !important;
-  border-color: red;
+.listina {
   color: white;
 }
 
-.qirmizi:hover {
-  background-color: white !important;
+.chris {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: #484848;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
-.accordion-toggle {
-  font-size: 20px;
-  color: gray;
+.text-thm {
+  color: #ff5a5f !important;
 }
 
-.accordion-toggle:hover {
-  color: gray;
-}
-
-.sidebar_listing_list {
-  border: 1px solid #ebebeb;
-  border-radius: 8px;
-  background-color: #ffffff;
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
-.sasw_list .search_area input {
-  background-color: #ffffff;
-  border: 1px solid #ebebeb;
-  border-radius: 8px;
-  font-size: 14px;
+.mezmun3 {
+  font-size: 17px;
   font-family: "Nunito";
   color: #484848;
   line-height: 1.2;
-  height: 52px;
-  padding-left: 10px;
 }
 
-.sasw_list .search_area label {
-  font-size: 18px;
-  position: absolute;
-  right: 40px;
-  top: 30px;
+.elaqeagent {
+  border-top: 1px solid #eeeeee;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+  width: 100%;
 }
 
-.ikonka {
-  font-size: 18px;
-  position: absolute;
-  right: 20px;
-  top: 10px;
+.ikons {
+  color: gray;
 }
 
-.search_option_two {
-  height: 50px;
-  width: 100px;
-  margin-bottom: 20px !important;
-}
-
-.show-tick {
-  height: 50px !important;
-  width: 240px !important;
-}
-
-.dropdown-menu {
-  max-height: 301px;
+.umumikartinka {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  margin-bottom: 30px;
   overflow: hidden;
-  min-height: 122px;
-  position: absolute;
-  -webkit-transform: translate3d(0px, 52px, 0px);
-          transform: translate3d(0px, 52px, 0px);
-  top: 0px;
-  left: 0px;
-  will-change: transform;
+  position: relative;
+}
+
+.chriselaqe {
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  background-color: #ffffff !important;
+  margin-bottom: 30px !important;
+  padding: 30px !important;
+}
+
+.qirm {
+  height: 50px;
+  background-color: #ff5a5f;
+  border: 2px solid #ff5a5f;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.qirm:hover {
+  background-color: white;
+}
+
+.condition {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  margin-bottom: 30px !important;
+  padding: 20px 20px 20px !important;
+  position: relative;
+  margin-top: 20px;
+}
+
+.feature {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  margin-bottom: 30px !important;
+  padding: 20px 20px 20px !important;
+  position: relative;
+  margin-top: 20px;
+}
+
+.align-self-start {
+  max-width: 100% !important;
+}
+
+.footerhisse {
+  background-color: #24324a;
+}
+
+.sosial {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.uc {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #8a99b3;
+  line-height: 2.429;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.uc:hover {
+  color: white;
+}
+
+.dord {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #8a99b3;
+  line-height: 2.5;
+}
+
+.btn-primary {
+  background-color: #354765 !important;
+  border: 1px solid #354765 !important;
+  border-radius: 50%;
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.salams {
+  background-color: #354765 !important;
+  border: 1px solid #354765;
+  border-radius: 25px;
+  color: #354765 !important;
+  height: 50px;
+  padding-left: 30px;
+}
+
+.salams:hover {
+  background-color: #354765 !important;
+}
+
+.footerarea {
+  background-color: #1a263a;
+}
+
+.bes {
+  color: gray;
+}
+
+.bes:hover {
+  color: white;
 }
