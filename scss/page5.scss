@@ -403,3 +403,34 @@ body {
 .clickb:hover {
     color: red !important;
 }
+
+ul.total_reivew_view {
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 30px 30px 0;
+    position: relative;
+    width: 100%;
+}
+
+ul.total_reivew_view li.sub_titles {
+    font-size: 18px;
+    font-family: "Nunito";
+    color: #484848;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-right: 10px;
+}
+
+ul.total_reivew_view li.avrg_review {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: #767676 !important;
+    line-height: 2.143;
+}
+
+ul.total_reivew_view .star_list li a {
+    font-size: 14px;
+    font-family: "FontAwesome";
+    color: #bcc52a !important;
+    line-height: 2.143;
+}

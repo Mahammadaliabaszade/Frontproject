@@ -1,6 +1,6 @@
 body {
   height: 3000px;
-  background-color: rgba(158, 156, 156, 0.575);
+  background-color: white;
 }
 
 .logos {
@@ -15,30 +15,14 @@ body {
   font-size: 32px;
 }
 
-.fa-user-circle {
+.fas {
   color: gray !important;
-  position: absolute;
-  left: 77% !important;
-  top: 43% !important;
+  margin-right: 4px;
 }
 
 .nav-item .nav-link {
   margin-left: 16px;
   color: gray !important;
-}
-
-.search9 {
-  background-color: #ffffff;
-  border: 1px solid #ebebeb;
-  border-radius: 8px;
-  height: 62px;
-  margin: 0 auto 30px;
-  padding: 0 15px;
-  position: relative;
-  width: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .mobile-nav {
@@ -177,26 +161,6 @@ body {
 
 .change {
   display: block;
-}
-
-.sekil {
-  margin-left: 15%;
-  margin-top: 4%;
-  -webkit-text-decoration-color: gray;
-          text-decoration-color: gray;
-}
-
-.ag {
-  background-color: white;
-}
-
-.fa-user {
-  font-size: 20px;
-  position: absolute;
-  right: 15px;
-  top: 30px;
-  color: gray;
-  background-color: white;
 }
 
 .free {
