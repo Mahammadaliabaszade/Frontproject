@@ -453,3 +453,34 @@ main #properties .owl-carousel p:first-child {
   font-weight: 300;
   color: #393131;
 }
+
+#salesmanager {
+  padding: 60px 0;
+  background-color: #f7f7f7;
+  text-align: center;
+  background-image: url("https://grandetest.com/theme/findhouse-html/images/background/2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#salesmanager .main-title {
+  text-align: center !important;
+  margin-bottom: 50px;
+  color: white;
+}
+#salesmanager .item {
+  padding: 0 20rem;
+}
+#salesmanager .thumb img {
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: inline-block;
+  height: 114px;
+  width: 114px !important;
+}
+#salesmanager .info {
+  color: white;
+}
+#salesmanager .info p {
+  font-size: 14px;
+  font-weight: 300;
+}
