@@ -1,70 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/037eb147d7.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/037eb147d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/grid3.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light desktop-nav">
-        <a class="navbar-brand" href="#">
-          <img src="img/header-logo.png" class="logos" alt="" />
-          <strong> FindHouse </strong>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light desktop-nav">
+            <a class="navbar-brand" href="#">
+                <img src="img/header-logo.png" class="logos" alt="" />
+                <strong> FindHouse </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul
-            class="navbar-nav justify-content-center mt-2"
-            style="width: 100%"
-          >
-            <li class="nav-item active">
-              <a class="nav-link" href="#"> <strong>Home </strong> </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"> <strong>Listing </strong> </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"> <strong>Property </strong> </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> <strong>Pages </strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> <strong>Blog </strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> <strong>Contact </strong> </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
-                <i class="fas fa-user"></i>Login/Register
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-center mt-2" style="width: 100%">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <strong>Home </strong> </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <strong>Listing </strong> </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <strong>Property </strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <strong>Pages </strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <strong>Blog </strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <strong>Contact </strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i
+                >Login/Register
               </a>
             </li>
           </ul>
@@ -87,63 +66,52 @@
             <li><a href="#">Login/Register</a></li>
           </ul>
         </div>
-        <div class="menu-bg" id="menu-bg"></div>
-      </nav>
-      <!-- mobile nav bitdi -->
-      <!-- taps basladi -->
+        <div class="d-flex justify-content-center ag">
+          <a class="navbar-brand sekil" href="#">
+            <img src="img/header-logo.png" class="logos" alt="" />
+            <strong style="color: black"> FindHouse </strong>
+          </a>
+          <i class="fas fa-user"></i>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </nav>
+        <!-- mobile nav bitdi -->
+        <!-- taps basladi -->
     </header>
 
     <section class="wite">
-      <div class="container">
-        <div class="row mt-5" style="margin-bottom: 50px">
-          <div class="col-lg-6">
-            <span class="bread">
+        <div class="container">
+            <div class="row mt-5" style="margin-bottom: 50px">
+                <div class="col-lg-6">
+                    <span class="bread">
               Home / <span class="simp"> Simple Listing – Grid View </span>
-            </span>
-            <h2 class="simple">Simple Listing – Grid View 3</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-xl-4">
-            <div class="sidebar_listing_list dn-991">
-              <div class="sidebar_advanced_search_widget">
-                <ul
-                  class="sasw_list mb0"
-                  style="list-style: none; padding-left: 10px"
-                >
-                  <li class="search_area">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        style="height: 50px !important; width: 220px !important"
-                        placeholder="keyword "
-                      />
-                      <label for="exampleInputEmail "> </label>
-                    </div>
-                  </li>
-                  <li class="search_area">
-                    <div class="form-group">
-                      <input
-                        type="text "
-                        class="form-control"
-                        style="height: 50px !important; width: 220px !important"
-                        id="exampleInputEmail "
-                        placeholder="Location "
-                      />
-                      <label for="exampleInputEmail "
-                        ><span class="flaticon-maps-and-flags"></span
+                    </span>
+                    <h2 class="simple">Simple Listing – Grid View 3</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-xl-4">
+                    <div class="sidebar_listing_list dn-991">
+                        <div class="sidebar_advanced_search_widget">
+                            <ul class="sasw_list mb0" style="list-style: none; padding-left: 10px">
+                                <li class="search_area">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" style="height: 50px !important; width: 220px !important" placeholder="keyword " />
+                                        <label for="exampleInputEmail "> </label>
+                                    </div>
+                                </li>
+                                <li class="search_area">
+                                    <div class="form-group">
+                                        <input type="text " class="form-control" style="height: 50px !important; width: 220px !important" id="exampleInputEmail " placeholder="Location " />
+                                        <label for="exampleInputEmail "><span class="flaticon-maps-and-flags"></span
                       ></label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="search_option_two">
-                      <div class="candidate_revew_select">
-                        <div class="dropdown bootstrap-select w100 show-tick">
-                          <select
-                            class="selectpicker w100 show-tick"
-                            tabindex="-98 "
-                          >
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="search_option_two">
+                                        <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick">
+                                                <select class="selectpicker w100 show-tick" tabindex="-98 ">
                             <option>Status</option>
                             <option>Apartment</option>
                             <option>Bungalow</option>
@@ -152,28 +120,17 @@
                             <option>Land</option>
                             <option>Single Family</option>
                           </select>
-                          <div class="filter-option">
-                            <div class="filter-option-inner">
-                              <div class="filter-option-inner-inner"></div>
-                            </div>
-                          </div>
+                                                <div class="filter-option">
+                                                    <div class="filter-option-inner">
+                                                        <div class="filter-option-inner-inner"></div>
+                                                    </div>
+                                                </div>
 
-                          <div class="dropdown-menu" role="combobox ">
-                            <div
-                              class="inner show"
-                              role="listbox "
-                              aria-expanded="false "
-                              tabindex="-1 "
-                            >
-                              <ul class="dropdown-menu inner show">
-                                <li class="selected active">
-                                  <a
-                                    role="option "
-                                    class="dropdown-item selected active"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="true "
-                                    ><span
+                                                <div class="dropdown-menu" role="combobox ">
+                                                    <div class="inner show" role="listbox " aria-expanded="false " tabindex="-1 ">
+                                                        <ul class="dropdown-menu inner show">
+                                                            <li class="selected active">
+                                                                <a role="option " class="dropdown-item selected active" aria-disabled="false " tabindex="0 " aria-selected="true "><span
                                       class="bs-ok-default check-mark"
                                     ></span
                                     ><span class="text">Status</span></a
@@ -802,58 +759,49 @@
                       <ul class="icon mb0">
                         <li class="list-inline-item">
                           <a href="#"> </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#"></a>
-                        </li>
-                      </ul>
-                      <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <div class="tc_content">
-                      <p class="text-thm" style="color: red !important">
-                        Apartment
-                      </p>
-                      <h4
-                        style="
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <div class="tc_content">
+                                                        <p class="text-thm" style="color: red !important">
+                                                            Apartment
+                                                        </p>
+                                                        <h4 style="
                           font-size: 18px;
                           color: #484848;
                           font-weight: bold;
                           line-height: 1.2;
-                        "
-                      >
-                        Renovated Apartment
-                      </h4>
-                      <p>
-                        <span class="flaticon-placeholder"></span> 1421 San
-                        Pedro St, Los Angeles, CA 90015
-                      </p>
-                      <ul class="prop_details mb0">
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Beds: 4</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Baths: 2</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="fp_footer">
-                      <ul
-                        class="fp_meta float-left mb0"
-                        style="padding-left: 3px"
-                      >
-                        <li class="list-inline-item">
-                          <a href="#"
-                            ><img src="img/miniqaqas.png" alt="alituran"
-                          /></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#" style="color: black !important"
-                            >Ali Tufan</a
+                        ">
+                                                            Renovated Apartment
+                                                        </h4>
+                                                        <p>
+                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
+                                                        </p>
+                                                        <ul class="prop_details mb0">
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Beds: 4</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Baths: 2</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="fp_footer">
+                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
+                                                            <li class="list-inline-item">
+                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" style="color: black !important">Ali Tufan</a
                           >
                         </li>
                       </ul>
@@ -900,58 +848,49 @@
                       <ul class="icon mb0">
                         <li class="list-inline-item">
                           <a href="#"> </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#"></a>
-                        </li>
-                      </ul>
-                      <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <div class="tc_content">
-                      <p class="text-thm" style="color: red !important">
-                        Apartment
-                      </p>
-                      <h4
-                        style="
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <div class="tc_content">
+                                                        <p class="text-thm" style="color: red !important">
+                                                            Apartment
+                                                        </p>
+                                                        <h4 style="
                           font-size: 18px;
                           color: #484848;
                           font-weight: bold;
                           line-height: 1.2;
-                        "
-                      >
-                        Renovated Apartment
-                      </h4>
-                      <p>
-                        <span class="flaticon-placeholder"></span> 1421 San
-                        Pedro St, Los Angeles, CA 90015
-                      </p>
-                      <ul class="prop_details mb0">
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Beds: 4</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Baths: 2</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="fp_footer">
-                      <ul
-                        class="fp_meta float-left mb0"
-                        style="padding-left: 3px"
-                      >
-                        <li class="list-inline-item">
-                          <a href="#"
-                            ><img src="img/miniqaqas.png" alt="alituran"
-                          /></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#" style="color: black !important"
-                            >Ali Tufan</a
+                        ">
+                                                            Renovated Apartment
+                                                        </h4>
+                                                        <p>
+                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
+                                                        </p>
+                                                        <ul class="prop_details mb0">
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Beds: 4</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Baths: 2</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="fp_footer">
+                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
+                                                            <li class="list-inline-item">
+                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" style="color: black !important">Ali Tufan</a
                           >
                         </li>
                       </ul>
@@ -998,58 +937,49 @@
                       <ul class="icon mb0">
                         <li class="list-inline-item">
                           <a href="#"> </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#"></a>
-                        </li>
-                      </ul>
-                      <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <div class="tc_content">
-                      <p class="text-thm" style="color: red !important">
-                        Apartment
-                      </p>
-                      <h4
-                        style="
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <div class="tc_content">
+                                                        <p class="text-thm" style="color: red !important">
+                                                            Apartment
+                                                        </p>
+                                                        <h4 style="
                           font-size: 18px;
                           color: #484848;
                           font-weight: bold;
                           line-height: 1.2;
-                        "
-                      >
-                        Renovated Apartment
-                      </h4>
-                      <p>
-                        <span class="flaticon-placeholder"></span> 1421 San
-                        Pedro St, Los Angeles, CA 90015
-                      </p>
-                      <ul class="prop_details mb0">
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Beds: 4</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Baths: 2</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="fp_footer">
-                      <ul
-                        class="fp_meta float-left mb0"
-                        style="padding-left: 3px"
-                      >
-                        <li class="list-inline-item">
-                          <a href="#"
-                            ><img src="img/miniqaqas.png" alt="alituran"
-                          /></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#" style="color: black !important"
-                            >Ali Tufan</a
+                        ">
+                                                            Renovated Apartment
+                                                        </h4>
+                                                        <p>
+                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
+                                                        </p>
+                                                        <ul class="prop_details mb0">
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Beds: 4</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Baths: 2</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="fp_footer">
+                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
+                                                            <li class="list-inline-item">
+                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" style="color: black !important">Ali Tufan</a
                           >
                         </li>
                       </ul>
@@ -1096,58 +1026,49 @@
                       <ul class="icon mb0">
                         <li class="list-inline-item">
                           <a href="#"> </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#"></a>
-                        </li>
-                      </ul>
-                      <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <div class="tc_content">
-                      <p class="text-thm" style="color: red !important">
-                        Apartment
-                      </p>
-                      <h4
-                        style="
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <div class="tc_content">
+                                                        <p class="text-thm" style="color: red !important">
+                                                            Apartment
+                                                        </p>
+                                                        <h4 style="
                           font-size: 18px;
                           color: #484848;
                           font-weight: bold;
                           line-height: 1.2;
-                        "
-                      >
-                        Renovated Apartment
-                      </h4>
-                      <p>
-                        <span class="flaticon-placeholder"></span> 1421 San
-                        Pedro St, Los Angeles, CA 90015
-                      </p>
-                      <ul class="prop_details mb0">
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Beds: 4</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Baths: 2</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="fp_footer">
-                      <ul
-                        class="fp_meta float-left mb0"
-                        style="padding-left: 3px"
-                      >
-                        <li class="list-inline-item">
-                          <a href="#"
-                            ><img src="img/miniqaqas.png" alt="alituran"
-                          /></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#" style="color: black !important"
-                            >Ali Tufan</a
+                        ">
+                                                            Renovated Apartment
+                                                        </h4>
+                                                        <p>
+                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
+                                                        </p>
+                                                        <ul class="prop_details mb0">
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Beds: 4</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Baths: 2</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="fp_footer">
+                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
+                                                            <li class="list-inline-item">
+                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" style="color: black !important">Ali Tufan</a
                           >
                         </li>
                       </ul>
@@ -1194,58 +1115,49 @@
                       <ul class="icon mb0">
                         <li class="list-inline-item">
                           <a href="#"> </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#"></a>
-                        </li>
-                      </ul>
-                      <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <div class="tc_content">
-                      <p class="text-thm" style="color: red !important">
-                        Apartment
-                      </p>
-                      <h4
-                        style="
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <div class="tc_content">
+                                                        <p class="text-thm" style="color: red !important">
+                                                            Apartment
+                                                        </p>
+                                                        <h4 style="
                           font-size: 18px;
                           color: #484848;
                           font-weight: bold;
                           line-height: 1.2;
-                        "
-                      >
-                        Renovated Apartment
-                      </h4>
-                      <p>
-                        <span class="flaticon-placeholder"></span> 1421 San
-                        Pedro St, Los Angeles, CA 90015
-                      </p>
-                      <ul class="prop_details mb0">
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Beds: 4</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Baths: 2</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="fp_footer">
-                      <ul
-                        class="fp_meta float-left mb0"
-                        style="padding-left: 3px"
-                      >
-                        <li class="list-inline-item">
-                          <a href="#"
-                            ><img src="img/miniqaqas.png" alt="alituran"
-                          /></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#" style="color: black !important"
-                            >Ali Tufan</a
+                        ">
+                                                            Renovated Apartment
+                                                        </h4>
+                                                        <p>
+                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
+                                                        </p>
+                                                        <ul class="prop_details mb0">
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Beds: 4</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Baths: 2</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="fp_footer">
+                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
+                                                            <li class="list-inline-item">
+                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" style="color: black !important">Ali Tufan</a
                           >
                         </li>
                       </ul>
@@ -1292,58 +1204,49 @@
                       <ul class="icon mb0">
                         <li class="list-inline-item">
                           <a href="#"> </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#"></a>
-                        </li>
-                      </ul>
-                      <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <div class="tc_content">
-                      <p class="text-thm" style="color: red !important">
-                        Apartment
-                      </p>
-                      <h4
-                        style="
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <div class="tc_content">
+                                                        <p class="text-thm" style="color: red !important">
+                                                            Apartment
+                                                        </p>
+                                                        <h4 style="
                           font-size: 18px;
                           color: #484848;
                           font-weight: bold;
                           line-height: 1.2;
-                        "
-                      >
-                        Renovated Apartment
-                      </h4>
-                      <p>
-                        <span class="flaticon-placeholder"></span> 1421 San
-                        Pedro St, Los Angeles, CA 90015
-                      </p>
-                      <ul class="prop_details mb0">
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Beds: 4</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Baths: 2</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="fp_footer">
-                      <ul
-                        class="fp_meta float-left mb0"
-                        style="padding-left: 3px"
-                      >
-                        <li class="list-inline-item">
-                          <a href="#"
-                            ><img src="img/miniqaqas.png" alt="alituran"
-                          /></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#" style="color: black !important"
-                            >Ali Tufan</a
+                        ">
+                                                            Renovated Apartment
+                                                        </h4>
+                                                        <p>
+                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
+                                                        </p>
+                                                        <ul class="prop_details mb0">
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Beds: 4</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Baths: 2</a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="fp_footer">
+                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
+                                                            <li class="list-inline-item">
+                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" style="color: black !important">Ali Tufan</a
                           >
                         </li>
                       </ul>
@@ -1364,27 +1267,26 @@
                       >
                         <i class="fas fa-arrow-left"></i>
                       </a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item active" aria-current="page">
-                      <a class="page-link" href="#"
-                        >2 <span class="sr-only">(current)</span></a
+                                                            </li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#">1</a>
+                                                            </li>
+                                                            <li class="page-item active" aria-current="page">
+                                                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a
                       >
                     </li>
                     <li class="page-item">
                       <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">...</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">29</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">
-                        <i class="fas fa-arrow-right"></i
+                                                            </li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#">...</a>
+                                                            </li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#">29</a>
+                                                            </li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#">
+                                                                    <i class="fas fa-arrow-right"></i
                       ></a>
                     </li>
                   </ul>
@@ -1396,7 +1298,7 @@
       </div>
     </section>
 
-    <section class="footerhisse">
+    <section class="footerhisse" style="padding: 80px 0 70px">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
@@ -1440,96 +1342,80 @@
               <ul class="mb30">
                 <li class="list-inline-item">
                   <a href="#" class="uc"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="uc"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="uc"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="uc"><i class="fa fa-pinterest"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="uc"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="uc"><i class="fa fa-google"></i></a>
-                </li>
-              </ul>
-              <h4 class="sosial">Subscribe</h4>
-              <form class="footermail">
-                <div class="form-row align-items-center">
-                  <div class="col-auto">
-                    <input
-                      type="email"
-                      class="form-control salams mb-2"
-                      id="inlineFormInput"
-                      placeholder="Your email"
-                    />
-                  </div>
-                  <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-2">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" class="uc"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" class="uc"><i class="fa fa-instagram"></i></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" class="uc"><i class="fa fa-pinterest"></i></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" class="uc"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#" class="uc"><i class="fa fa-google"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="sosial">Subscribe</h4>
+                                                        <form class="footermail">
+                                                            <div class="form-row align-items-center">
+                                                                <div class="col-auto">
+                                                                    <input type="email" class="form-control salams mb-2" id="inlineFormInput" placeholder="Your email" />
+                                                                </div>
+                                                                <div class="col-auto">
+                                                                    <button type="submit" class="btn btn-primary mb-2">
                       <i class="fa fa-angle-right"></i>
                     </button>
-                  </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    </section>
+    <section class="footerarea" style="padding-top: 40px; padding-bottom: 40px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footerwidget">
+                        <ul>
+                            <li class="list-inline-item">
+                                <a href="#" class="bes">Home</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="bes">Listing</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="bes">Property</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="bes">Pages</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="bes">Blog</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="bes">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </form>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="copyright text-right">
+                        <p class="bes">© 2020 Find House. Made with love.</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
-    <section class="footerarea pt40 pb40">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-xl-6">
-            <div class="footerwidget">
-              <ul>
-                <li class="list-inline-item">
-                  <a href="#" class="bes">Home</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="bes">Listing</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="bes">Property</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="bes">Pages</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="bes">Blog</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="bes">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-6">
-            <div class="copyright text-right">
-              <p class="bes">© 2020 Find House. Made with love.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
-      crossorigin="anonymous "
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN "
-      crossorigin="anonymous "
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV "
-      crossorigin="anonymous "
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
     <script src="js/grid3.js "></script>
-  </body>
+</body>
+
 </html>

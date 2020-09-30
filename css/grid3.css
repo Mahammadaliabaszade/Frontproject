@@ -1,6 +1,6 @@
 body {
-  height: 2325px;
-  background-color: white;
+  height: 2000px;
+  background-color: rgba(158, 156, 156, 0.575);
 }
 
 .logos {
@@ -15,9 +15,11 @@ body {
   font-size: 32px;
 }
 
-.fas {
+.fa-user-circle {
   color: gray !important;
-  margin-right: 4px;
+  position: absolute;
+  left: 77% !important;
+  top: 43% !important;
 }
 
 .nav-item .nav-link {
@@ -161,6 +163,26 @@ body {
 
 .change {
   display: block;
+}
+
+.sekil {
+  margin-left: 15%;
+  margin-top: 4%;
+  -webkit-text-decoration-color: gray;
+          text-decoration-color: gray;
+}
+
+.ag {
+  background-color: white;
+}
+
+.fa-user {
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  color: gray;
+  background-color: white;
 }
 
 .free {
