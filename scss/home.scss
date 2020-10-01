@@ -350,7 +350,6 @@
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
-                                margin-top: 1rem;
                                 ul {
                                     display: flex;
                                     align-items: center;
@@ -358,7 +357,7 @@
                                     padding-left: 0;
                                     li {
                                         list-style: none;
-                                        margin-right: 10px;
+                                        padding-left: 100px;
                                     }
                                     img {
                                         width: 40px;

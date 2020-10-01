@@ -388,7 +388,6 @@ main #properties .owl-carousel p:first-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1rem;
 }
 
 #properties .owl-carousel .fp-footer ul {
@@ -404,7 +403,7 @@ main #properties .owl-carousel p:first-child {
 
 #properties .owl-carousel .fp-footer ul li {
   list-style: none;
-  margin-right: 10px;
+  padding-left: 100px;
 }
 
 #properties .owl-carousel .fp-footer ul img {
