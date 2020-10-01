@@ -403,14 +403,6 @@ body {
   color: red !important;
 }
 
-.clickb {
-  background-color: white !important;
-  border: 1px solid #354765 !important;
-  border-radius: 80%;
-  height: 50px !important;
-  width: 120px !important;
-}
-
 .clickb:hover {
   color: red !important;
 }
@@ -444,4 +436,154 @@ ul.total_reivew_view .star_list li a {
   font-family: "FontAwesome";
   color: #bcc52a !important;
   line-height: 2.143;
+}
+
+ul.total_reivew_view li.sub_titles {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: #484848;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-right: 10px;
+}
+
+ul.total_reivew_view li.avrg_review {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #767676;
+  line-height: 2.143;
+}
+
+.mbp_pagination_comments .mbp_first img {
+  margin-right: 1.6rem !important;
+}
+
+.mbp_comment_form.style2 .comments_form .form-group input,
+.bsp_reveiw_wrt .comments_form .form-group input {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #484848;
+  line-height: 1.2;
+  height: 52px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.mbp_comment_form.style2 .comments_form .form-group textarea,
+.bsp_reveiw_wrt .comments_form .form-group textarea {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  color: #484848;
+  font-size: 14px;
+  font-family: "Nunito";
+  line-height: 1.2;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.mbp_comment_form.style2 {
+  padding: 10px 30px 30px;
+}
+
+.submit {
+  border-radius: 8px;
+  background-color: #ff5a5f;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+          box-shadow: 0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: bold;
+  height: 50px;
+  line-height: 35px;
+  width: 200px;
+}
+
+.mbp_comment_form.style2 h4,
+.bsp_reveiw_wrt h4 {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: #484848;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+a {
+  color: #555555;
+  font-size: 14px;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.product_single_content .mbp_pagination_comments .mbp_first.media .media-body p {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #484848;
+  line-height: 1.857;
+  margin-bottom: 0;
+}
+
+.fa-star {
+  font-size: 12px;
+  color: yellow;
+}
+
+.product_single_content .mbp_pagination_comments .mbp_first.media .media-body p {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #484848;
+  line-height: 1.857;
+  margin-bottom: 0;
+}
+
+.shop_single_tab_content .mbp_pagination_comments .mbp_first.media {
+  padding: 30px 30px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul.total_reivew_view li.write_review {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #ff5a5f;
+  line-height: 2.57;
+  position: absolute;
+  right: 30px;
+}
+
+ul.total_reivew_view {
+  cursor: pointer;
+  margin-bottom: 0;
+  padding: 30px 30px 0;
+  position: relative;
+  width: 100%;
+}
+
+.ptag {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #484848;
+  line-height: 1.857;
+}
+
+.clickb {
+  height: 40px;
+  width: 110px;
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+.clickb:hover {
+  color: red;
+  border-color: white;
 }
