@@ -23,6 +23,7 @@ $(document).ready(function() {
     })
 
 })
+
 const yenipage = document.querySelector(".yeni-page");
 const acilanhisse = document.querySelector(".acilanhisse");
 const qapananhisse = document.querySelector(".qapananhisse");

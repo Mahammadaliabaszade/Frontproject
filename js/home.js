@@ -23,3 +23,25 @@
       })
 
   })
+
+  const yenipage = document.querySelector(".yeni-page");
+  const acilanhisse = document.querySelector(".acilanhisse");
+  const qapananhisse = document.querySelector(".qapananhisse");
+  yenipage.addEventListener("click", function() {
+      acilanhisse.classList.add("show");
+      acilanhisse.style.display = "flex";
+      document.querySelector("body").style.overflowY = "hidden";
+  });
+
+  acilanhisse.addEventListener("click", function(event) {
+      let target = event.target;
+
+      if (
+          target.classList.contains("acilanhisse") ||
+          target.classList.contains("qapananhisse")
+      ) {
+          acilanhisse.classList.remove("show");
+          acilanhisse.style.display = "none";
+          document.querySelector("body").style.overflowY = "";
+      }
+  });
