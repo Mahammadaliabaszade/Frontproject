@@ -6,7 +6,8 @@ body {
 .logos {
     margin-left: 10px;
     color: red !important;
-    background-color: red !important;
+    background-color: transparent !important;
+    border-color: red !important;
 }
 
 .logosa {

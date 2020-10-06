@@ -290,6 +290,26 @@ body {
     text-decoration-color: gray;
 }
 
+.condition {
+    background-color: #ffffff !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px !important;
+    padding: 20px 20px 20px !important;
+    position: relative;
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #ffffff !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px !important;
+    padding: 20px 20px 20px !important;
+    position: relative;
+    margin-top: 20px;
+}
+
 .mb25 {
     margin-bottom: 25px !important;
 }
@@ -300,6 +320,113 @@ body {
 
 .ag {
     background-color: white;
+}
+
+.single_property_social_share.style2 {
+    position: absolute;
+    right: 30px;
+}
+
+.yazilari li a {
+    color: #484848;
+    font-size: 14px;
+    font-family: "Nunito";
+    color: rgb(72, 72, 72);
+    line-height: 1.2;
+}
+
+.yazilari li {
+    border-radius: 8px;
+    background-color: rgb(247, 247, 247);
+    height: 40px;
+    padding: 6px 25px;
+    text-align: center;
+}
+
+.listing_single_description {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    padding: 30px;
+}
+
+.detallarinsozleri {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    padding: 30px;
+    position: relative;
+}
+
+.detallarwords {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    padding: 30px;
+    position: relative;
+}
+
+.detallarwords ul li p span {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+    line-height: 2.857;
+}
+
+.detallarinsozleri ul li p {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: rgb(72, 72, 72);
+    line-height: 2.857;
+    margin-bottom: 0;
+}
+
+.detallarinsozleri ul li p span {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+    line-height: 2.857;
+}
+
+.xerite {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.statistikalist li a {
+    color: gray !important;
+}
+
+.statistikahisse {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+}
+
+.fa-check-circle {
+    color: red !important;
+}
+
+.single_property_social_share h2 {
+    font-size: 30px;
+    font-family: "Nunito";
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.listing_single_description2 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    display: flex;
+    padding: 30px;
 }
 
 .sidebar_listing_list {
