@@ -395,6 +395,69 @@ body {
     margin-top: 30px;
 }
 
+.property_video {
+    padding: 30px;
+    position: relative;
+}
+
+.salamss {
+    color: white !important;
+    border: none;
+    font-size: 18px;
+    font-family: "Nunito";
+    color: #484848;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: .5rem 0;
+}
+
+.salamss:hover {
+    color: red !important;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    color: red !important;
+}
+
+.shop_single_tab_content {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 8px;
+}
+
+.property_video .thumb .overlay_icon a {
+    background-color: rgb(255, 90, 95);
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 22px;
+    height: 70px;
+    left: 0;
+    line-height: 70px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    width: 70px;
+    z-index: 99;
+}
+
+.planhisse {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+}
+
+.item1 {
+    font-size: 16px;
+    font-family: "Nunito";
+    color: #484848;
+    font-weight: bold;
+}
+
 .statistikalist li a {
     color: gray !important;
 }
@@ -626,4 +689,82 @@ body {
         position: absolute;
         top: 12%;
     }
+}
+
+.footerhisse {
+    background-color: #24324a;
+}
+
+.sosial {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.uc {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: #8a99b3;
+    line-height: 2.429;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.uc:hover {
+    color: white;
+}
+
+.dord {
+    font-size: 14px;
+    font-family: "Nunito";
+    color: #8a99b3;
+    line-height: 2.5;
+}
+
+.btn-primary {
+    background-color: #354765 !important;
+    border: 1px solid #354765 !important;
+    border-radius: 50%;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.salams {
+    background-color: #354765 !important;
+    border: 1px solid #354765;
+    border-radius: 25px;
+    color: #354765 !important;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.salams:hover {
+    background-color: #354765 !important;
+}
+
+.footerarea {
+    background-color: #1a263a;
+}
+
+.bes {
+    color: gray;
+}
+
+.bes:hover {
+    color: white;
+}
+
+.buttonka:hover {
+    background-color: white !important;
+}
+
+.buttonka {
+    border-radius: 8px;
+    background-color: #ff787c;
+    height: 60px;
+    line-height: 50px;
+    width: 200px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: white !important;
 }
