@@ -7,22 +7,24 @@
 
   $(document).ready(function() {
 
-      $(window).scroll(function() {
-          var navbar = $('header nav '),
-              navHeight = navbar.height(),
-              scrollPos = $(this).scrollTop();
+          $(window).scroll(function() {
+              var navbar = $('header nav '),
+                  navHeight = navbar.height(),
+                  scrollPos = $(this).scrollTop();
 
-          if (scrollPos > navHeight) {
-              navbar.addClass('fixed');
-              $('header').css('padding-top', navHeight + 'px')
-          } else {
-              navbar.removeClass('fixed');
-              $('header').css('padding-top', '0')
-          }
+              if (scrollPos > navHeight) {
+                  navbar.addClass('fixed');
+                  $('header').css('padding-top', navHeight + 'px')
+              } else {
+                  navbar.removeClass('fixed');
+                  $('header').css('padding-top', '0')
+              }
+
+          })
 
       })
-
-  })
+      // bura qeder olan hisse scroll dusende navabrda onunla gelsin deyedi
+      // login register modal acilmasi ucun
 
   const yenipage = document.querySelector(".yeni-page");
   const acilanhisse = document.querySelector(".acilanhisse");
