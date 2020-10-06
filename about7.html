@@ -15,6 +15,7 @@
 
 <body>
     <!-- header ile sehife baslasin -->
+    <!-- burger menu elave et burada yaddan cixmasin -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light desktop-nav">
             <a class="navbar-brand" href="#">
@@ -22,8 +23,8 @@
                 <strong> FindHouse </strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav justify-content-center mt-2" style="width: 100%">
                     <li class="nav-item active">
@@ -46,36 +47,36 @@
                     </li>
                     <li class="yeni-page">
                         <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i
-                >Login/Register
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <nav class="mobile-nav">
-        <div id="menu-bar">
-          <div id="menu" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-          </div>
-          <ul class="nav" id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Listing</a></li>
-            <li><a href="#">Property</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Login/Register</a></li>
-          </ul>
-        </div>
-        <div class="d-flex justify-content-center ag">
-          <a class="navbar-brand sekil" href="#">
-            <img src="img/header-logo.png" class="logos" alt="" />
-            <strong style="color: black"> FindHouse </strong>
-          </a>
-          <i class="fas fa-user"></i>
+                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i>Login/Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- burger menu basladi -->
+        <nav class="mobile-nav">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Listing</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login/Register</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center ag">
+                <a class="navbar-brand sekil" href="#">
+                    <img src="img/header-logo.png" class="logos" alt="" />
+                    <strong style="color: black"> FindHouse </strong>
+                </a>
+                <i class="fas fa-user"></i>
             </div>
             <div class="menu-bg" id="menu-bg"></div>
         </nav>
@@ -84,6 +85,7 @@
     </header>
     <!-- header tamam bitdi -->
     <main>
+        <!-- sekiller barede melumat olan div bitsin commit vuracam seher burdan davam edecem  -->
         <section class="aboutsekil">
             <div class="container">
                 <div class="row">
@@ -91,122 +93,86 @@
                         <div class="breadcrumb_content" style="margin-top: 120px">
                             <ol class="breadcrumb" style="background-color: transparent">
                                 <li class="breadcrumb-item" style="background-color: transparent">
-                                    <a href="#" style="color: white; margin-bottom: 0; padding-left: 0">Home / About Us</a
-                    >
-                  </li>
-                </ol>
-                <h1 class="breadcrumb_title" style="color: white">About Us</h1>
-              </div>
+                                    <a href="#" style="color: white; margin-bottom: 0; padding-left: 0">Home / About
+                                        Us</a>
+                                </li>
+                            </ol>
+                            <h1 class="breadcrumb_title" style="color: white">About Us</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="iframehisse">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-              <div class="main-title text-center" style="margin-bottom: 50px">
-                <h2
-                  class="mt0"
-                  style="color: #484848; line-height: 1.2; margin-bottom: 10px"
-                >
-                  Our Mission Is To FindHouse
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-8 col-xl-7">
-              <div class="about_content">
-                <p
-                  class="large"
-                  style="
+        </section>
+        <section class="iframehisse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="main-title text-center" style="margin-bottom: 50px">
+                            <h2 class="mt0" style="color: #484848; line-height: 1.2; margin-bottom: 10px">
+                                Our Mission Is To FindHouse
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-xl-7">
+                        <div class="about_content">
+                            <p class="large" style="
                     color: #484848;
                     font-size: 16px;
                     font-weight: bold;
                     line-height: 1.5;
                     margin-bottom: 45px;
-                  "
-                >
-                  Mauris ac consectetur ante, dapibus gravida tellus. Nullam
-                  aliquet eleifend dapibus. Cras sagittis, ex euismod lacinia
-                  tempor.
-                </p>
-                <p class="hemise">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis ligula eu lectus vulputate porttitor sed feugiat
-                  nunc. Mauris ac consectetur ante, dapibus gravida tellus.
-                  Nullam aliquet eleifend dapibus. Cras sagittis, ex euismod
-                  lacinia tempor, lectus orci elementum augue, eget auctor metus
-                  ante sit amet velit.
-                </p>
-                <p class="hemise">
-                  Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                  augue et ex congue, sed luctus lectus congue. Integer
-                  convallis condimentum sem. Duis elementum tortor eget
-                  condimentum tempor. Praesent sollicitudin lectus ut pharetra
-                  pulvinar. Donec et libero ligula. Vivamus semper at orci at
-                  placerat.Placeat Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Quod libero amet, laborum qui nulla quae
-                  alias tempora.
-                </p>
-                <ul class="ab_counting">
-                  <li class="list-inline-item">
-                    <div class="about_counting">
-                      <div class="details">
-                        <i
-                          class="fas fa-address-card"
-                          style="color: red; font-size: 42px"
-                        ></i>
+                  ">
+                                Mauris ac consectetur ante, dapibus gravida tellus. Nullam aliquet eleifend dapibus. Cras sagittis, ex euismod lacinia tempor.
+                            </p>
+                            <p class="hemise">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris ac consectetur ante, dapibus gravida tellus. Nullam aliquet eleifend dapibus. Cras sagittis, ex euismod lacinia tempor,
+                                lectus orci elementum augue, eget auctor metus ante sit amet velit.
+                            </p>
+                            <p class="hemise">
+                                Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
+                                ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet, laborum qui nulla quae alias tempora.
+                            </p>
+                            <ul class="ab_counting">
+                                <li class="list-inline-item">
+                                    <div class="about_counting">
+                                        <div class="details">
+                                            <i class="fas fa-address-card" style="color: red; font-size: 42px"></i>
 
-                        <h3>80,123</h3>
-                        <p>Customers to date</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <div class="about_counting">
-                      <i
-                        class="fas fa-home"
-                        style="color: red; font-size: 42px"
-                      ></i>
+                                            <h3>80,123</h3>
+                                            <p>Customers to date</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="about_counting">
+                                        <i class="fas fa-home" style="color: red; font-size: 42px"></i>
 
-                      <div class="details">
-                        <h3>$74 Billion</h3>
-                        <p>In home sales</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <div class="about_counting">
-                      <i
-                        class="fas fa-comment-dollar"
-                        style="color: red; font-size: 42px"
-                      ></i>
+                                        <div class="details">
+                                            <h3>$74 Billion</h3>
+                                            <p>In home sales</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="about_counting">
+                                        <i class="fas fa-comment-dollar" style="color: red; font-size: 42px"></i>
 
-                      <div class="details">
-                        <h3>$468 Million</h3>
-                        <p>In Savings</p>
-                      </div>
+                                        <div class="details">
+                                            <h3>$468 Million</h3>
+                                            <p>In Savings</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-xl-5">
-              <div class="about_thumb">
-                <img
-                  class="img-fluid w100"
-                  src="img/iframe.jpg"
-                  alt="1.jpg"
-                  style="max-width: 100%"
-                />
-                <a
-                  class="popup-iframe popup-youtube color-white"
-                  href="https://www.youtube.com/"
-                >
-                  <i class="fas fa-play"></i
-                ></a>
+                    <div class="col-lg-4 col-xl-5">
+                        <div class="about_thumb">
+                            <img class="img-fluid w100" src="img/iframe.jpg" alt="1.jpg" style="max-width: 100%" />
+                            <a class="popup-iframe popup-youtube color-white" href="https://www.youtube.com/">
+                                <i class="fas fa-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -605,12 +571,18 @@
                         <div class="footersocial">
                             <h4 class="sosial">Follow us</h4>
                             <ul class="mb30">
-                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-pinterest"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-dribbble"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-google"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-dribbble"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#" class="uc"><i class="fa fa-google"></i></a>
+                                </li>
                             </ul>
                             <h4 class="sosial">Subscribe</h4>
                             <form class="footermail">
@@ -619,7 +591,8 @@
                                         <input type="email" class="form-control salams mb-2" id="inlineFormInput" placeholder="Your email">
                                     </div>
                                     <div class="col-auto">
-                                        <button type="submit" class="btn btn-primary mb-2"><i class="fa fa-angle-right"></i></button>
+                                        <button type="submit" class="btn btn-primary mb-2"><i
+                                                class="fa fa-angle-right"></i></button>
                                     </div>
                                 </div>
                             </form>
@@ -721,9 +694,12 @@
 
 
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
     <script src="owlcarousel/owl.carousel.js"></script>
     <script src="js/about.js"></script>
     <script>

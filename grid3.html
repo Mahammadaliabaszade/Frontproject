@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- bu page test eledin okeydi hersey -->
 
 <head>
     <meta charset="UTF-8" />
@@ -9,17 +10,19 @@
     <script src="https://kit.fontawesome.com/037eb147d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/grid3.css" />
 </head>
+<!-- header hisse ile baslayaq  -->
 
 <body>
     <header>
+        <!-- nav gelsin -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light desktop-nav">
             <a class="navbar-brand" href="#">
                 <img src="img/header-logo.png" class="logos" alt="" />
                 <strong> FindHouse </strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav justify-content-center mt-2" style="width: 100%">
                     <li class="nav-item active">
@@ -42,53 +45,55 @@
                     </li>
                     <li class="yeni-page">
                         <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i
-                >Login/Register
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <nav class="mobile-nav">
-        <div id="menu-bar">
-          <div id="menu" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-          </div>
-          <ul class="nav" id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Listing</a></li>
-            <li><a href="#">Property</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Login/Register</a></li>
-          </ul>
-        </div>
-        <div class="d-flex justify-content-center ag">
-          <a class="navbar-brand sekil" href="#">
-            <img src="img/header-logo.png" class="logos" alt="" />
-            <strong style="color: black"> FindHouse </strong>
-          </a>
-          <i class="fas fa-user"></i>
+                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i>Login/Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- desktopun navi bitmisdir -->
+        <!-- burger menyuya bASLA -->
+        <nav class="mobile-nav">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Listing</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login/Register</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center ag">
+                <a class="navbar-brand sekil" href="#">
+                    <img src="img/header-logo.png" class="logos" alt="" />
+                    <strong style="color: black"> FindHouse </strong>
+                </a>
+                <i class="fas fa-user"></i>
             </div>
             <div class="menu-bg" id="menu-bg"></div>
         </nav>
         <!-- mobile nav bitdi -->
         <!-- taps basladi -->
     </header>
-
+    <!-- header falaln hamsi bitdi -->
     <section class="wite">
         <div class="container">
             <div class="row mt-5" style="margin-bottom: 50px">
                 <div class="col-lg-6">
                     <span class="bread">
-              Home / <span class="simp"> Simple Listing – Grid View </span>
+            Home / <span class="simp"> Simple Listing – Grid View </span>
                     </span>
                     <h2 class="simple">Simple Listing – Grid View 3</h2>
                 </div>
             </div>
+            <!-- row ile bolub col lg4 atmalisan -->
             <div class="row">
                 <div class="col-lg-4 col-xl-4">
                     <div class="sidebar_listing_list dn-991">
@@ -103,8 +108,7 @@
                                 <li class="search_area">
                                     <div class="form-group">
                                         <input type="text " class="form-control" style="height: 50px !important; width: 220px !important" id="exampleInputEmail " placeholder="Location " />
-                                        <label for="exampleInputEmail "><span class="flaticon-maps-and-flags"></span
-                      ></label>
+                                        <label for="exampleInputEmail "><span class="flaticon-maps-and-flags"></span></label>
                                     </div>
                                 </li>
                                 <li>
@@ -112,14 +116,14 @@
                                         <div class="candidate_revew_select">
                                             <div class="dropdown bootstrap-select w100 show-tick">
                                                 <select class="selectpicker w100 show-tick" tabindex="-98 ">
-                            <option>Status</option>
-                            <option>Apartment</option>
-                            <option>Bungalow</option>
-                            <option>Condo</option>
-                            <option>House</option>
-                            <option>Land</option>
-                            <option>Single Family</option>
-                          </select>
+                          <option>Status</option>
+                          <option>Apartment</option>
+                          <option>Bungalow</option>
+                          <option>Condo</option>
+                          <option>House</option>
+                          <option>Land</option>
+                          <option>Single Family</option>
+                        </select>
                                                 <div class="filter-option">
                                                     <div class="filter-option-inner">
                                                         <div class="filter-option-inner-inner"></div>
@@ -131,1356 +135,936 @@
                                                         <ul class="dropdown-menu inner show">
                                                             <li class="selected active">
                                                                 <a role="option " class="dropdown-item selected active" aria-disabled="false " tabindex="0 " aria-selected="true "><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">Status</span></a
-                                  >
+                                    class="bs-ok-default check-mark"></span><span class="text">Status</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a role="option " class="dropdown-item" aria-disabled="false " tabindex="0 " aria-selected="false "><span class="bs-ok-default check-mark"></span><span
+                                    class="text">Apartment</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a role="option " class="dropdown-item" aria-disabled="false " tabindex="0 " aria-selected="false "><span class="bs-ok-default check-mark"></span><span
+                                    class="text">Bungalow</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a role="option " class="dropdown-item" aria-disabled="false " tabindex="0 " aria-selected="false "><span class="bs-ok-default check-mark"></span><span
+                                    class="text">Condo</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a role="option " class="dropdown-item" aria-disabled="false " tabindex="0 " aria-selected="false "><span class="bs-ok-default check-mark"></span><span
+                                    class="text">House</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a role="option " class="dropdown-item" aria-disabled="false " tabindex="0 " aria-selected="false "><span class="bs-ok-default check-mark"></span><span
+                                    class="text">Land</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a role="option " class="dropdown-item" aria-disabled="false " tabindex="0 " aria-selected="false "><span class="bs-ok-default check-mark"></span><span
+                                    class="text">Single Family</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li>
-                                  <a
-                                    role="option "
-                                    class="dropdown-item"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="false "
-                                    ><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">Apartment</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a
-                                    role="option "
-                                    class="dropdown-item"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="false "
-                                    ><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">Bungalow</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a
-                                    role="option "
-                                    class="dropdown-item"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="false "
-                                    ><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">Condo</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a
-                                    role="option "
-                                    class="dropdown-item"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="false "
-                                    ><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">House</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a
-                                    role="option "
-                                    class="dropdown-item"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="false "
-                                    ><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">Land</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a
-                                    role="option "
-                                    class="dropdown-item"
-                                    aria-disabled="false "
-                                    tabindex="0 "
-                                    aria-selected="false "
-                                    ><span
-                                      class="bs-ok-default check-mark"
-                                    ></span
-                                    ><span class="text">Single Family</span></a
-                                  >
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="search_option_two">
-                      <div class="candidate_revew_select">
-                        <div class="dropdown bootstrap-select w100 show-tick">
-                          <select
-                            class="selectpicker w100 show-tick"
-                            tabindex="-98 "
-                          >
-                            <option>Property Type</option>
-                            <option>Apartment</option>
-                            <option>Bungalow</option>
-                            <option>Condo</option>
-                            <option>House</option>
-                            <option>Land</option>
-                            <option>Single Family</option>
-                          </select>
-                          <div class="filter-option">
-                            <div class="filter-option-inner">
-                              <div class="filter-option-inner-inner"></div>
-                            </div>
-                          </div>
+                                    <div class="search_option_two">
+                                        <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick">
+                                                <select class="selectpicker w100 show-tick" tabindex="-98 ">
+                          <option>Property Type</option>
+                          <option>Apartment</option>
+                          <option>Bungalow</option>
+                          <option>Condo</option>
+                          <option>House</option>
+                          <option>Land</option>
+                          <option>Single Family</option>
+                        </select>
+                                                <div class="filter-option">
+                                                    <div class="filter-option-inner">
+                                                        <div class="filter-option-inner-inner"></div>
+                                                    </div>
+                                                </div>
 
-                          <div class="dropdown-menu" role="combobox ">
-                            <div
-                              class="inner show"
-                              role="listbox "
-                              aria-expanded="false "
-                              tabindex="-1 "
-                            >
-                              <ul class="dropdown-menu inner show"></ul>
-                            </div>
-                          </div>
+                                                <div class="dropdown-menu" role="combobox ">
+                                                    <div class="inner show" role="listbox " aria-expanded="false " tabindex="-1 ">
+                                                        <ul class="dropdown-menu inner show"></ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small_dropdown2">
+                                        <div class="form-group">
+                                            <input type="text " class="form-control " style="
+                        height: 50px !important; width: 220px !important;" " id=" exampleInputName1 " placeholder=" Price " />
+                        <label for=" exampleInputEmail "> </label>
+                      </div>
+                      <div class=" dd_content2 ">
+                      <div class=" pricing_acontent ">
+                        <div
+                          class=" slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content ">
+                          <div class=" ui-slider-range ui-corner-all ui-widget-header "
+                            style=" left: 2.79875%; width: 57.8438% "></div>
+                          <span tabindex=" 0 " class=" ui-slider-handle ui-corner-all ui-state-default "
+                            style=" left: 2.79875% "></span><span tabindex=" 0 "
+                            class=" ui-slider-handle ui-corner-all ui-state-default " style=" left: 60.6425% "></span>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li>
-                    <div class="small_dropdown2">
-                      <div class="form-group">
-                        <input type="text " class="form-control " style="
-                        height: 50px !important; width: 220px !important;"" id="
-                        exampleInputName1 " placeholder="Price " />
-                        <label for="exampleInputEmail "> </label>
-                      </div>
-                      <div class="dd_content2">
-                        <div class="pricing_acontent">
-                          <div
-                            class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
-                          >
-                            <div
-                              class="ui-slider-range ui-corner-all ui-widget-header"
-                              style="left: 2.79875%; width: 57.8438%"
-                            ></div>
-                            <span
-                              tabindex="0 "
-                              class="ui-slider-handle ui-corner-all ui-state-default"
-                              style="left: 2.79875%"
-                            ></span
-                            ><span
-                              tabindex="0 "
-                              class="ui-slider-handle ui-corner-all ui-state-default"
-                              style="left: 60.6425%"
-                            ></span>
+                  </div>
+                </li>
+                <li>
+                  <div class=" search_option_two ">
+                    <div class=" candidate_revew_select ">
+                      <div class=" dropdown bootstrap-select w100 show-tick ">
+                        <select class=" selectpicker w100 show-tick " tabindex=" -98 ">
+                          <option>Bathrooms</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                        </select>
+                        <div class=" filter-option ">
+                          <div class=" filter-option-inner ">
+                            <div class=" filter-option-inner-inner "></div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="search_option_two">
-                      <div class="candidate_revew_select">
-                        <div class="dropdown bootstrap-select w100 show-tick">
-                          <select
-                            class="selectpicker w100 show-tick"
-                            tabindex="-98 "
-                          >
-                            <option>Bathrooms</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                          </select>
-                          <div class="filter-option">
-                            <div class="filter-option-inner">
-                              <div class="filter-option-inner-inner"></div>
-                            </div>
-                          </div>
 
-                          <div class="dropdown-menu" role="combobox ">
-                            <div
-                              class="inner show"
-                              role="listbox "
-                              aria-expanded="false "
-                              tabindex="-1 "
-                            >
-                              <ul class="dropdown-menu inner show"></ul>
-                            </div>
+                        <div class=" dropdown-menu " role=" combobox ">
+                          <div class=" inner show " role=" listbox " aria-expanded=" false " tabindex=" -1 ">
+                            <ul class=" dropdown-menu inner show "></ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li>
-                    <div class="search_option_two">
-                      <div class="candidate_revew_select">
-                        <div class="dropdown bootstrap-select w100 show-tick">
-                          <select
-                            class="selectpicker w100 show-tick"
-                            tabindex="-98 "
-                          >
-                            <option>Bedrooms</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                          </select>
-                          <div class="filter-option">
-                            <div class="filter-option-inner">
-                              <div class="filter-option-inner-inner"></div>
-                            </div>
+                  </div>
+                </li>
+                <li>
+                  <div class=" search_option_two ">
+                    <div class=" candidate_revew_select ">
+                      <div class=" dropdown bootstrap-select w100 show-tick ">
+                        <select class=" selectpicker w100 show-tick " tabindex=" -98 ">
+                          <option>Bedrooms</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                        </select>
+                        <div class=" filter-option ">
+                          <div class=" filter-option-inner ">
+                            <div class=" filter-option-inner-inner "></div>
                           </div>
+                        </div>
 
-                          <div class="dropdown-menu" role="combobox ">
-                            <div
-                              class="inner show"
-                              role="listbox "
-                              aria-expanded="false "
-                              tabindex="-1 "
-                            >
-                              <ul class="dropdown-menu inner show"></ul>
-                            </div>
+                        <div class=" dropdown-menu " role=" combobox ">
+                          <div class=" inner show " role=" listbox " aria-expanded=" false " tabindex=" -1 ">
+                            <ul class=" dropdown-menu inner show "></ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li>
-                    <div class="search_option_two">
-                      <div class="candidate_revew_select">
-                        <div class="dropdown bootstrap-select w100 show-tick">
-                          <select
-                            class="selectpicker w100 show-tick"
-                            tabindex="-98 "
-                          >
-                            <option>Garages</option>
-                            <option>Yes</option>
-                            <option>No</option>
-                            <option>Others</option>
-                          </select>
-                          <div class="filter-option">
-                            <div class="filter-option-inner">
-                              <div class="filter-option-inner-inner"></div>
-                            </div>
+                  </div>
+                </li>
+                <li>
+                  <div class=" search_option_two ">
+                    <div class=" candidate_revew_select ">
+                      <div class=" dropdown bootstrap-select w100 show-tick ">
+                        <select class=" selectpicker w100 show-tick " tabindex=" -98 ">
+                          <option>Garages</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                          <option>Others</option>
+                        </select>
+                        <div class=" filter-option ">
+                          <div class=" filter-option-inner ">
+                            <div class=" filter-option-inner-inner "></div>
                           </div>
+                        </div>
 
-                          <div class="dropdown-menu" role="combobox ">
-                            <div
-                              class="inner show"
-                              role="listbox "
-                              aria-expanded="false "
-                              tabindex="-1 "
-                            >
-                              <ul class="dropdown-menu inner show"></ul>
-                            </div>
+                        <div class=" dropdown-menu " role=" combobox ">
+                          <div class=" inner show " role=" listbox " aria-expanded=" false " tabindex=" -1 ">
+                            <ul class=" dropdown-menu inner show "></ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li>
-                    <div class="search_option_two">
-                      <div class="candidate_revew_select">
-                        <div class="dropdown bootstrap-select w100 show-tick">
-                          <select
-                            class="selectpicker w100 show-tick"
-                            tabindex="-98 "
-                          >
-                            <option>Year built</option>
-                            <option>2013</option>
-                            <option>2014</option>
-                            <option>2015</option>
-                            <option>2016</option>
-                            <option>2017</option>
-                            <option>2018</option>
-                            <option>2019</option>
-                            <option>2020</option>
-                          </select>
-                          <!-- <div class="filter-option ">
-                  <div class="filter-option-inner ">
-                    <div class="filter-option-inner-inner "></div>
+                  </div>
+                </li>
+                <li>
+                  <div class=" search_option_two ">
+                    <div class=" candidate_revew_select ">
+                      <div class=" dropdown bootstrap-select w100 show-tick ">
+                        <select class=" selectpicker w100 show-tick " tabindex=" -98 ">
+                          <option>Year built</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                        </select>
+                        <!-- <div class=" filter-option ">
+                  <div class=" filter-option-inner ">
+                    <div class=" filter-option-inner-inner "></div>
                   </div>
                 </div> -->
 
-                          <div class="dropdown-menu" role="combobox ">
-                            <div
-                              class="inner show"
-                              role="listbox "
-                              aria-expanded="false "
-                              tabindex="-1 "
-                            >
-                              <ul class="dropdown-menu inner show"></ul>
-                            </div>
+                        <div class=" dropdown-menu " role=" combobox ">
+                          <div class=" inner show " role=" listbox " aria-expanded=" false " tabindex=" -1 ">
+                            <ul class=" dropdown-menu inner show "></ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li class="min_area list-inline-item">
-                    <div class="form-group">
-                      <input
-                        type="text "
-                        class="form-control"
-                        id="exampleInputName2 "
-                        placeholder="Min Area "
-                      />
-                    </div>
-                  </li>
-                  <li class="max_area list-inline-item">
-                    <div class="form-group">
-                      <input
-                        type="text "
-                        class="form-control"
-                        id="exampleInputName3 "
-                        placeholder="Max Area "
-                      />
-                    </div>
-                  </li>
-                  <li>
-                    <div id="accordion " class="panel-group">
-                      <div class="panel">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a
-                              href="#panelBodyRating"
-                              class="accordion-toggle"
-                              data-toggle="collapse "
-                              data-parent="#accordion "
-                              ><i class="flaticon-more"></i> Advanced
-                              features</a
-                            >
-                          </h4>
-                        </div>
-                        <div
-                          id="panelBodyRating"
-                          class="panel-collapse collapse"
-                        >
-                          <div class="panel-body row">
-                            <div class="col-lg-12">
-                              <ul
-                                class="ui_kit_checkbox selectable-list float-left fn-400"
-                              >
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck16 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck16 "
-                                      >Air Conditioning</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck17 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck17 "
-                                      >Barbeque</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck18 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck18 "
-                                      >Gym</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck19 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck19 "
-                                      >Microwave</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck20 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck20 "
-                                      >TV Cable</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck21 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck21 "
-                                      >Lawn</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck22 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck22 "
-                                      >Refrigerator</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck23 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck23 "
-                                      >Swimming Pool</label
-                                    >
-                                  </div>
-                                </li>
-                              </ul>
-                              <ul
-                                class="ui_kit_checkbox selectable-list float-right fn-400"
-                              >
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck24 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck24 "
-                                      >WiFi</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck25 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck25 "
-                                      >Sauna</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck26 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck26 "
-                                      >Dryer</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck27 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck27 "
-                                      >Washer</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck28 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck28 "
-                                      >Laundry</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck29 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck29 "
-                                      >Outdoor Shower</label
-                                    >
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="custom-control custom-checkbox">
-                                    <input
-                                      type="checkbox "
-                                      class="custom-control-input"
-                                      id="customCheck30 "
-                                    />
-                                    <label
-                                      class="custom-control-label"
-                                      for="customCheck30 "
-                                      >Window Coverings</label
-                                    >
-                                  </div>
-                                </li>
-                              </ul>
-                            </div>
+                  </div>
+                </li>
+                <li class=" min_area list-inline-item ">
+                  <div class=" form-group ">
+                    <input type=" text " class=" form-control " id=" exampleInputName2 " placeholder=" Min Area " />
+                  </div>
+                </li>
+                <li class=" max_area list-inline-item ">
+                  <div class=" form-group ">
+                    <input type=" text " class=" form-control " id=" exampleInputName3 " placeholder=" Max Area " />
+                  </div>
+                </li>
+                <li>
+                  <div id=" accordion " class=" panel-group ">
+                    <div class=" panel ">
+                      <div class=" panel-heading ">
+                        <h4 class=" panel-title ">
+                          <a href=" #panelBodyRating " class=" accordion-toggle " data-toggle=" collapse "
+                            data-parent=" #accordion "><i class=" flaticon-more "></i> Advanced
+                            features</a>
+                        </h4>
+                      </div>
+                      <div id=" panelBodyRating " class=" panel-collapse collapse ">
+                        <div class=" panel-body row ">
+                          <div class=" col-lg-12 ">
+                            <ul class=" ui_kit_checkbox selectable-list float-left fn-400 ">
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck16 " />
+                                  <label class=" custom-control-label " for=" customCheck16 ">Air Conditioning</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck17 " />
+                                  <label class=" custom-control-label " for=" customCheck17 ">Barbeque</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck18 " />
+                                  <label class=" custom-control-label " for=" customCheck18 ">Gym</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck19 " />
+                                  <label class=" custom-control-label " for=" customCheck19 ">Microwave</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck20 " />
+                                  <label class=" custom-control-label " for=" customCheck20 ">TV Cable</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck21 " />
+                                  <label class=" custom-control-label " for=" customCheck21 ">Lawn</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck22 " />
+                                  <label class=" custom-control-label " for=" customCheck22 ">Refrigerator</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck23 " />
+                                  <label class=" custom-control-label " for=" customCheck23 ">Swimming Pool</label>
+                                </div>
+                              </li>
+                            </ul>
+                            <ul class=" ui_kit_checkbox selectable-list float-right fn-400 ">
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck24 " />
+                                  <label class=" custom-control-label " for=" customCheck24 ">WiFi</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck25 " />
+                                  <label class=" custom-control-label " for=" customCheck25 ">Sauna</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck26 " />
+                                  <label class=" custom-control-label " for=" customCheck26 ">Dryer</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck27 " />
+                                  <label class=" custom-control-label " for=" customCheck27 ">Washer</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck28 " />
+                                  <label class=" custom-control-label " for=" customCheck28 ">Laundry</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck29 " />
+                                  <label class=" custom-control-label " for=" customCheck29 ">Outdoor Shower</label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class=" custom-control custom-checkbox ">
+                                  <input type=" checkbox " class=" custom-control-input " id=" customCheck30 " />
+                                  <label class=" custom-control-label " for=" customCheck30 ">Window Coverings</label>
+                                </div>
+                              </li>
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
+                </li>
+                <li>
+                  <div class=" search_option_button ">
+                    <button type=" submit " class=" qirmizi btn btn-block btn-thm ">
+                      Search
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-12 col-lg-8 ">
+          <div class=" resultfalan ">
+            <div class=" result ">
+              <span style=" padding-left: 10px "> 9 Search results </span>
+              <span style=" padding-left: 270px ">
+                Status: All Status Status: Feature First</span>
+            </div>
+          </div>
+          <div class=" row ">
+            <!-- bunlar tekrar gedecek -->
+            <div class=" col-md-6 col-lg-6 " style=" margin-top: 20px ">
+              <div class=" feat_property home7 ">
+                <div class=" thumb ">
+                  <img class=" img-whp " src=" img/grid1.jpg " alt=" fp1.jpg " />
+                  <div class=" thmb_cntnt ">
+                    <ul class=" tag mb0 ">
+                      <li class=" list-inline-item " style=" background-color: rgb(62, 76, 102) ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">For Rent</a>
+                      </li>
+                      <li class=" list-inline-item " style=" background-color: #ff5a5f; margin-right: 0 ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">Featured</a>
+                      </li>
+                    </ul>
+                    <ul class=" icon mb0 ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "> </a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # "></a>
+                      </li>
+                    </ul>
+                    <a class=" fp_price " href=" # ">$13,000<small>/mo</small></a>
+                  </div>
+                </div>
+                <div class=" details ">
+                  <div class=" tc_content ">
+                    <p class=" text-thm " style=" color: red !important ">
+                      Apartment
+                    </p>
+                    <h4 style=" font-size: 18px; color: #484848; font-weight: bold; line-height: 1.2; ">
+                      Renovated Apartment
+                    </h4>
+                    <p>
+                      <span class=" flaticon-placeholder "></span> 1421 San Pedro St, Los Angeles, CA 90015
+                    </p>
+                    <ul class=" prop_details mb0 ">
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Beds: 4</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Baths: 2</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Sq Ft: 5280</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class=" fp_footer ">
+                    <ul class=" fp_meta float-left mb0 " style=" padding-left: 3px ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "><img src=" img/miniqaqas.png " alt=" alituran " /></a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # " style=" color: black !important ">Ali Tufan</a>
+                      </li>
+                    </ul>
+                    <div class=" fp_pdate float-right ">4 years ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- hamisi tekrar eyni seylerdi  -->
+            <!-- axira bidene col md12 atarsan -->
+            <div class=" col-md-6 col-lg-6 " style=" margin-top: 20px ">
+              <div class=" feat_property home7 ">
+                <div class=" thumb ">
+                  <img class=" img-whp " src=" img/grid2.jpg " alt=" fp1.jpg " />
+                  <div class=" thmb_cntnt ">
+                    <ul class=" tag mb0 ">
+                      <li class=" list-inline-item " style=" background-color: rgb(62, 76, 102) ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">For Rent</a>
+                      </li>
+                      <li class=" list-inline-item " style=" background-color: #ff5a5f; margin-right: 0 ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">Featured</a>
+                      </li>
+                    </ul>
+                    <ul class=" icon mb0 ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "> </a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # "></a>
+                      </li>
+                    </ul>
+                    <a class=" fp_price " href=" # ">$13,000<small>/mo</small></a>
+                  </div>
+                </div>
+                <div class=" details ">
+                  <div class=" tc_content ">
+                    <p class=" text-thm " style=" color: red !important ">
+                      Apartment
+                    </p>
+                    <h4 style=" font-size: 18px; color: #484848; font-weight: bold; line-height: 1.2; ">
+                      Renovated Apartment
+                    </h4>
+                    <p>
+                      <span class=" flaticon-placeholder "></span> 1421 San Pedro St, Los Angeles, CA 90015
+                    </p>
+                    <ul class=" prop_details mb0 ">
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Beds: 4</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Baths: 2</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Sq Ft: 5280</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class=" fp_footer ">
+                    <ul class=" fp_meta float-left mb0 " style=" padding-left: 3px ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "><img src=" img/miniqaqas.png " alt=" alituran " /></a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # " style=" color: black !important ">Ali Tufan</a>
+                      </li>
+                    </ul>
+                    <div class=" fp_pdate float-right ">4 years ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-lg-6 " style=" margin-top: 20px ">
+              <div class=" feat_property home7 ">
+                <div class=" thumb ">
+                  <img class=" img-whp " src=" img/grid3.jpg " alt=" fp1.jpg " />
+                  <div class=" thmb_cntnt ">
+                    <ul class=" tag mb0 ">
+                      <li class=" list-inline-item " style=" background-color: rgb(62, 76, 102) ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">For Rent</a>
+                      </li>
+                      <li class=" list-inline-item " style=" background-color: #ff5a5f; margin-right: 0 ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">Featured</a>
+                      </li>
+                    </ul>
+                    <ul class=" icon mb0 ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "> </a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # "></a>
+                      </li>
+                    </ul>
+                    <a class=" fp_price " href=" # ">$13,000<small>/mo</small></a>
+                  </div>
+                </div>
+                <div class=" details ">
+                  <div class=" tc_content ">
+                    <p class=" text-thm " style=" color: red !important ">
+                      Apartment
+                    </p>
+                    <h4 style=" font-size: 18px; color: #484848; font-weight: bold; line-height: 1.2; ">
+                      Renovated Apartment
+                    </h4>
+                    <p>
+                      <span class=" flaticon-placeholder "></span> 1421 San Pedro St, Los Angeles, CA 90015
+                    </p>
+                    <ul class=" prop_details mb0 ">
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Beds: 4</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Baths: 2</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Sq Ft: 5280</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class=" fp_footer ">
+                    <ul class=" fp_meta float-left mb0 " style=" padding-left: 3px ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "><img src=" img/miniqaqas.png " alt=" alituran " /></a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # " style=" color: black !important ">Ali Tufan</a>
+                      </li>
+                    </ul>
+                    <div class=" fp_pdate float-right ">4 years ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-lg-6 " style=" margin-top: 20px ">
+              <div class=" feat_property home7 ">
+                <div class=" thumb ">
+                  <img class=" img-whp " src=" img/grid4.jpg " alt=" fp1.jpg " />
+                  <div class=" thmb_cntnt ">
+                    <ul class=" tag mb0 ">
+                      <li class=" list-inline-item " style=" background-color: rgb(62, 76, 102) ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">For Rent</a>
+                      </li>
+                      <li class=" list-inline-item " style=" background-color: #ff5a5f; margin-right: 0 ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">Featured</a>
+                      </li>
+                    </ul>
+                    <ul class=" icon mb0 ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "> </a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # "></a>
+                      </li>
+                    </ul>
+                    <a class=" fp_price " href=" # ">$13,000<small>/mo</small></a>
+                  </div>
+                </div>
+                <div class=" details ">
+                  <div class=" tc_content ">
+                    <p class=" text-thm " style=" color: red !important ">
+                      Apartment
+                    </p>
+                    <h4 style=" font-size: 18px; color: #484848; font-weight: bold; line-height: 1.2; ">
+                      Renovated Apartment
+                    </h4>
+                    <p>
+                      <span class=" flaticon-placeholder "></span> 1421 San Pedro St, Los Angeles, CA 90015
+                    </p>
+                    <ul class=" prop_details mb0 ">
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Beds: 4</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Baths: 2</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Sq Ft: 5280</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class=" fp_footer ">
+                    <ul class=" fp_meta float-left mb0 " style=" padding-left: 3px ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "><img src=" img/miniqaqas.png " alt=" alituran " /></a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # " style=" color: black !important ">Ali Tufan</a>
+                      </li>
+                    </ul>
+                    <div class=" fp_pdate float-right ">4 years ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-lg-6 " style=" margin-top: 20px ">
+              <div class=" feat_property home7 ">
+                <div class=" thumb ">
+                  <img class=" img-whp " src=" img/grid5.jpg " alt=" fp1.jpg " />
+                  <div class=" thmb_cntnt ">
+                    <ul class=" tag mb0 ">
+                      <li class=" list-inline-item " style=" background-color: rgb(62, 76, 102) ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">For Rent</a>
+                      </li>
+                      <li class=" list-inline-item " style=" background-color: #ff5a5f; margin-right: 0 ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">Featured</a>
+                      </li>
+                    </ul>
+                    <ul class=" icon mb0 ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "> </a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # "></a>
+                      </li>
+                    </ul>
+                    <a class=" fp_price " href=" # ">$13,000<small>/mo</small></a>
+                  </div>
+                </div>
+                <div class=" details ">
+                  <div class=" tc_content ">
+                    <p class=" text-thm " style=" color: red !important ">
+                      Apartment
+                    </p>
+                    <h4 style=" font-size: 18px; color: #484848; font-weight: bold; line-height: 1.2; ">
+                      Renovated Apartment
+                    </h4>
+                    <p>
+                      <span class=" flaticon-placeholder "></span> 1421 San Pedro St, Los Angeles, CA 90015
+                    </p>
+                    <ul class=" prop_details mb0 ">
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Beds: 4</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Baths: 2</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Sq Ft: 5280</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class=" fp_footer ">
+                    <ul class=" fp_meta float-left mb0 " style=" padding-left: 3px ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "><img src=" img/miniqaqas.png " alt=" alituran " /></a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # " style=" color: black !important ">Ali Tufan</a>
+                      </li>
+                    </ul>
+                    <div class=" fp_pdate float-right ">4 years ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-lg-6 " style=" margin-top: 20px ">
+              <div class=" feat_property home7 ">
+                <div class=" thumb ">
+                  <img class=" img-whp " src=" img/grid6.jpg " alt=" fp1.jpg " />
+                  <div class=" thmb_cntnt ">
+                    <ul class=" tag mb0 ">
+                      <li class=" list-inline-item " style=" background-color: rgb(62, 76, 102) ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">For Rent</a>
+                      </li>
+                      <li class=" list-inline-item " style=" background-color: #ff5a5f; margin-right: 0 ">
+                        <a href=" # " style=" font-size: 14px; color: #fefefe; line-height: 1.2; ">Featured</a>
+                      </li>
+                    </ul>
+                    <ul class=" icon mb0 ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "> </a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # "></a>
+                      </li>
+                    </ul>
+                    <a class=" fp_price " href=" # ">$13,000<small>/mo</small></a>
+                  </div>
+                </div>
+                <div class=" details ">
+                  <div class=" tc_content ">
+                    <p class=" text-thm " style=" color: red !important ">
+                      Apartment
+                    </p>
+                    <h4 style=" font-size: 18px; color: #484848; font-weight: bold; line-height: 1.2; ">
+                      Renovated Apartment
+                    </h4>
+                    <p>
+                      <span class=" flaticon-placeholder "></span> 1421 San Pedro St, Los Angeles, CA 90015
+                    </p>
+                    <ul class=" prop_details mb0 ">
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Beds: 4</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Baths: 2</a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a class=" text-thm3 " href=" # ">Sq Ft: 5280</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class=" fp_footer ">
+                    <ul class=" fp_meta float-left mb0 " style=" padding-left: 3px ">
+                      <li class=" list-inline-item ">
+                        <a href=" # "><img src=" img/miniqaqas.png " alt=" alituran " /></a>
+                      </li>
+                      <li class=" list-inline-item ">
+                        <a href=" # " style=" color: black !important ">Ali Tufan</a>
+                      </li>
+                    </ul>
+                    <div class=" fp_pdate float-right ">4 years ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-12 ">
+              <div class=" mbp_pagination mt20 " style=" margin-bottom: 40px ">
+                <ul class=" page_navigation ">
+                  <li class=" page-item ">
+                    <a class=" page-link " href=" # " tabindex=" -1 " aria-disabled=" true ">
+                      <i class=" fas fa-arrow-left "></i>
+                    </a>
                   </li>
-                  <li>
-                    <div class="search_option_button">
-                      <button
-                        type="submit "
-                        class="qirmizi btn btn-block btn-thm"
-                      >
-                        Search
-                      </button>
-                    </div>
+                  <li class=" page-item ">
+                    <a class=" page-link " href=" # ">1</a>
+                  </li>
+                  <li class=" page-item active " aria-current=" page ">
+                    <a class=" page-link " href=" # ">2 <span class=" sr-only ">(current)</span></a>
+                  </li>
+                  <li class=" page-item ">
+                    <a class=" page-link " href=" # ">3</a>
+                  </li>
+                  <li class=" page-item ">
+                    <a class=" page-link " href=" # ">...</a>
+                  </li>
+                  <li class=" page-item ">
+                    <a class=" page-link " href=" # ">29</a>
+                  </li>
+                  <li class=" page-item ">
+                    <a class=" page-link " href=" # ">
+                      <i class=" fas fa-arrow-right "></i></a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-8">
-            <div class="resultfalan">
-              <div class="result">
-                <span style="padding-left: 10px"> 9 Search results </span>
-                <span style="padding-left: 270px">
-                  Status: All Status Status: Feature First</span
-                >
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-lg-6" style="margin-top: 20px">
-                <div class="feat_property home7">
-                  <div class="thumb">
-                    <img class="img-whp" src="img/grid1.jpg" alt="fp1.jpg" />
-                    <div class="thmb_cntnt">
-                      <ul class="tag mb0">
-                        <li
-                          class="list-inline-item"
-                          style="background-color: rgb(62, 76, 102)"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >For Rent</a
-                          >
-                        </li>
-                        <li
-                          class="list-inline-item"
-                          style="background-color: #ff5a5f; margin-right: 0"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >Featured</a
-                          >
-                        </li>
-                      </ul>
-                      <ul class="icon mb0">
-                        <li class="list-inline-item">
-                          <a href="#"> </a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#"></a>
-                                                            </li>
-                                                        </ul>
-                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="tc_content">
-                                                        <p class="text-thm" style="color: red !important">
-                                                            Apartment
-                                                        </p>
-                                                        <h4 style="
-                          font-size: 18px;
-                          color: #484848;
-                          font-weight: bold;
-                          line-height: 1.2;
-                        ">
-                                                            Renovated Apartment
-                                                        </h4>
-                                                        <p>
-                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
-                                                        </p>
-                                                        <ul class="prop_details mb0">
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Beds: 4</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Baths: 2</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="fp_footer">
-                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
-                                                            <li class="list-inline-item">
-                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" style="color: black !important">Ali Tufan</a
-                          >
-                        </li>
-                      </ul>
-                      <div class="fp_pdate float-right">4 years ago</div>
-                    </div>
-                  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- uje footeri basladi commit vuracam bu sehifede bitidi -->
+  <section class=" footerhisse " style=" padding: 80px 0 70px ">
+    <div class=" container ">
+      <div class=" row ">
+        <div class=" col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0 ">
+          <div class=" footerabout ">
+            <h4 class=" sosial ">About Site</h4>
+            <p class=" dord ">
+              We’re reimagining how you buy, sell and rent. It’s now easier to
+              get into a place you love. So let’s do this, together.
+            </p>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-3 col-xl-3 ">
+          <div class=" footerqlink ">
+            <h4 class=" sosial ">Quick Links</h4>
+            <ul class=" list-unstyled ">
+              <li><a href=" # " class=" uc ">About Us</a></li>
+              <li><a href=" # " class=" uc ">Terms &amp; Conditions</a></li>
+              <li><a href=" # " class=" uc ">User’s Guide</a></li>
+              <li><a href=" # " class=" uc ">Support Center</a></li>
+              <li><a href=" # " class=" uc ">Press Info</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-3 col-xl-3 ">
+          <div class=" footercontact ">
+            <h4 class=" sosial ">Contact Us</h4>
+            <ul class=" list-unstyled ">
+              <li><a href=" # " class=" uc ">info@findhouse.com</a></li>
+              <li>
+                <a href=" # " class=" uc ">Collins Street West, Victoria</a>
+              </li>
+              <li><a href=" # " class=" uc ">8007, Australia.</a></li>
+              <li><a href=" # " class=" uc ">+1 246-345-0699</a></li>
+              <li><a href=" # " class=" uc ">+1 246-345-0695</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-3 col-xl-3 ">
+          <div class=" footersocial ">
+            <h4 class=" sosial ">Follow us</h4>
+            <ul class=" mb30 ">
+              <li class=" list-inline-item ">
+                <a href=" # " class=" uc "><i class=" fa fa-facebook "></i></a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" uc "><i class=" fa fa-twitter "></i></a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" uc "><i class=" fa fa-instagram "></i></a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" uc "><i class=" fa fa-pinterest "></i></a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" uc "><i class=" fa fa-dribbble "></i></a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" uc "><i class=" fa fa-google "></i></a>
+              </li>
+            </ul>
+            <h4 class=" sosial ">Subscribe</h4>
+            <form class=" footermail ">
+              <div class=" form-row align-items-center ">
+                <div class=" col-auto ">
+                  <input type=" email " class=" form-control salams mb-2 " id=" inlineFormInput " placeholder=" Your email " />
+                </div>
+                <div class=" col-auto ">
+                  <button type=" submit " class=" btn btn-primary mb-2 ">
+                    <i class=" fa fa-angle-right "></i>
+                  </button>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6" style="margin-top: 20px">
-                <div class="feat_property home7">
-                  <div class="thumb">
-                    <img class="img-whp" src="img/grid2.jpg" alt="fp1.jpg" />
-                    <div class="thmb_cntnt">
-                      <ul class="tag mb0">
-                        <li
-                          class="list-inline-item"
-                          style="background-color: rgb(62, 76, 102)"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >For Rent</a
-                          >
-                        </li>
-                        <li
-                          class="list-inline-item"
-                          style="background-color: #ff5a5f; margin-right: 0"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >Featured</a
-                          >
-                        </li>
-                      </ul>
-                      <ul class="icon mb0">
-                        <li class="list-inline-item">
-                          <a href="#"> </a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#"></a>
-                                                            </li>
-                                                        </ul>
-                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="tc_content">
-                                                        <p class="text-thm" style="color: red !important">
-                                                            Apartment
-                                                        </p>
-                                                        <h4 style="
-                          font-size: 18px;
-                          color: #484848;
-                          font-weight: bold;
-                          line-height: 1.2;
-                        ">
-                                                            Renovated Apartment
-                                                        </h4>
-                                                        <p>
-                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
-                                                        </p>
-                                                        <ul class="prop_details mb0">
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Beds: 4</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Baths: 2</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="fp_footer">
-                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
-                                                            <li class="list-inline-item">
-                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" style="color: black !important">Ali Tufan</a
-                          >
-                        </li>
-                      </ul>
-                      <div class="fp_pdate float-right">4 years ago</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-6" style="margin-top: 20px">
-                <div class="feat_property home7">
-                  <div class="thumb">
-                    <img class="img-whp" src="img/grid3.jpg" alt="fp1.jpg" />
-                    <div class="thmb_cntnt">
-                      <ul class="tag mb0">
-                        <li
-                          class="list-inline-item"
-                          style="background-color: rgb(62, 76, 102)"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >For Rent</a
-                          >
-                        </li>
-                        <li
-                          class="list-inline-item"
-                          style="background-color: #ff5a5f; margin-right: 0"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >Featured</a
-                          >
-                        </li>
-                      </ul>
-                      <ul class="icon mb0">
-                        <li class="list-inline-item">
-                          <a href="#"> </a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#"></a>
-                                                            </li>
-                                                        </ul>
-                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="tc_content">
-                                                        <p class="text-thm" style="color: red !important">
-                                                            Apartment
-                                                        </p>
-                                                        <h4 style="
-                          font-size: 18px;
-                          color: #484848;
-                          font-weight: bold;
-                          line-height: 1.2;
-                        ">
-                                                            Renovated Apartment
-                                                        </h4>
-                                                        <p>
-                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
-                                                        </p>
-                                                        <ul class="prop_details mb0">
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Beds: 4</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Baths: 2</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="fp_footer">
-                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
-                                                            <li class="list-inline-item">
-                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" style="color: black !important">Ali Tufan</a
-                          >
-                        </li>
-                      </ul>
-                      <div class="fp_pdate float-right">4 years ago</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-6" style="margin-top: 20px">
-                <div class="feat_property home7">
-                  <div class="thumb">
-                    <img class="img-whp" src="img/grid4.jpg" alt="fp1.jpg" />
-                    <div class="thmb_cntnt">
-                      <ul class="tag mb0">
-                        <li
-                          class="list-inline-item"
-                          style="background-color: rgb(62, 76, 102)"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >For Rent</a
-                          >
-                        </li>
-                        <li
-                          class="list-inline-item"
-                          style="background-color: #ff5a5f; margin-right: 0"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >Featured</a
-                          >
-                        </li>
-                      </ul>
-                      <ul class="icon mb0">
-                        <li class="list-inline-item">
-                          <a href="#"> </a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#"></a>
-                                                            </li>
-                                                        </ul>
-                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="tc_content">
-                                                        <p class="text-thm" style="color: red !important">
-                                                            Apartment
-                                                        </p>
-                                                        <h4 style="
-                          font-size: 18px;
-                          color: #484848;
-                          font-weight: bold;
-                          line-height: 1.2;
-                        ">
-                                                            Renovated Apartment
-                                                        </h4>
-                                                        <p>
-                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
-                                                        </p>
-                                                        <ul class="prop_details mb0">
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Beds: 4</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Baths: 2</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="fp_footer">
-                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
-                                                            <li class="list-inline-item">
-                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" style="color: black !important">Ali Tufan</a
-                          >
-                        </li>
-                      </ul>
-                      <div class="fp_pdate float-right">4 years ago</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-6" style="margin-top: 20px">
-                <div class="feat_property home7">
-                  <div class="thumb">
-                    <img class="img-whp" src="img/grid5.jpg" alt="fp1.jpg" />
-                    <div class="thmb_cntnt">
-                      <ul class="tag mb0">
-                        <li
-                          class="list-inline-item"
-                          style="background-color: rgb(62, 76, 102)"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >For Rent</a
-                          >
-                        </li>
-                        <li
-                          class="list-inline-item"
-                          style="background-color: #ff5a5f; margin-right: 0"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >Featured</a
-                          >
-                        </li>
-                      </ul>
-                      <ul class="icon mb0">
-                        <li class="list-inline-item">
-                          <a href="#"> </a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#"></a>
-                                                            </li>
-                                                        </ul>
-                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="tc_content">
-                                                        <p class="text-thm" style="color: red !important">
-                                                            Apartment
-                                                        </p>
-                                                        <h4 style="
-                          font-size: 18px;
-                          color: #484848;
-                          font-weight: bold;
-                          line-height: 1.2;
-                        ">
-                                                            Renovated Apartment
-                                                        </h4>
-                                                        <p>
-                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
-                                                        </p>
-                                                        <ul class="prop_details mb0">
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Beds: 4</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Baths: 2</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="fp_footer">
-                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
-                                                            <li class="list-inline-item">
-                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" style="color: black !important">Ali Tufan</a
-                          >
-                        </li>
-                      </ul>
-                      <div class="fp_pdate float-right">4 years ago</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-6" style="margin-top: 20px">
-                <div class="feat_property home7">
-                  <div class="thumb">
-                    <img class="img-whp" src="img/grid6.jpg" alt="fp1.jpg" />
-                    <div class="thmb_cntnt">
-                      <ul class="tag mb0">
-                        <li
-                          class="list-inline-item"
-                          style="background-color: rgb(62, 76, 102)"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >For Rent</a
-                          >
-                        </li>
-                        <li
-                          class="list-inline-item"
-                          style="background-color: #ff5a5f; margin-right: 0"
-                        >
-                          <a
-                            href="#"
-                            style="
-                              font-size: 14px;
-                              color: #fefefe;
-                              line-height: 1.2;
-                            "
-                            >Featured</a
-                          >
-                        </li>
-                      </ul>
-                      <ul class="icon mb0">
-                        <li class="list-inline-item">
-                          <a href="#"> </a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#"></a>
-                                                            </li>
-                                                        </ul>
-                                                        <a class="fp_price" href="#">$13,000<small>/mo</small></a>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="tc_content">
-                                                        <p class="text-thm" style="color: red !important">
-                                                            Apartment
-                                                        </p>
-                                                        <h4 style="
-                          font-size: 18px;
-                          color: #484848;
-                          font-weight: bold;
-                          line-height: 1.2;
-                        ">
-                                                            Renovated Apartment
-                                                        </h4>
-                                                        <p>
-                                                            <span class="flaticon-placeholder"></span> 1421 San Pedro St, Los Angeles, CA 90015
-                                                        </p>
-                                                        <ul class="prop_details mb0">
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Beds: 4</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Baths: 2</a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a class="text-thm3" href="#">Sq Ft: 5280</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="fp_footer">
-                                                        <ul class="fp_meta float-left mb0" style="padding-left: 3px">
-                                                            <li class="list-inline-item">
-                                                                <a href="#"><img src="img/miniqaqas.png" alt="alituran" /></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" style="color: black !important">Ali Tufan</a
-                          >
-                        </li>
-                      </ul>
-                      <div class="fp_pdate float-right">4 years ago</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="mbp_pagination mt20" style="margin-bottom: 40px">
-                  <ul class="page_navigation">
-                    <li class="page-item">
-                      <a
-                        class="page-link"
-                        href="#"
-                        tabindex="-1"
-                        aria-disabled="true"
-                      >
-                        <i class="fas fa-arrow-left"></i>
-                      </a>
-                                                            </li>
-                                                            <li class="page-item">
-                                                                <a class="page-link" href="#">1</a>
-                                                            </li>
-                                                            <li class="page-item active" aria-current="page">
-                                                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a
-                      >
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">3</a>
-                                                            </li>
-                                                            <li class="page-item">
-                                                                <a class="page-link" href="#">...</a>
-                                                            </li>
-                                                            <li class="page-item">
-                                                                <a class="page-link" href="#">29</a>
-                                                            </li>
-                                                            <li class="page-item">
-                                                                <a class="page-link" href="#">
-                                                                    <i class="fas fa-arrow-right"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="footerhisse" style="padding: 80px 0 70px">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
-            <div class="footerabout">
-              <h4 class="sosial">About Site</h4>
-              <p class="dord">
-                We’re reimagining how you buy, sell and rent. It’s now easier to
-                get into a place you love. So let’s do this, together.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="footerqlink">
-              <h4 class="sosial">Quick Links</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="uc">About Us</a></li>
-                <li><a href="#" class="uc">Terms &amp; Conditions</a></li>
-                <li><a href="#" class="uc">User’s Guide</a></li>
-                <li><a href="#" class="uc">Support Center</a></li>
-                <li><a href="#" class="uc">Press Info</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="footercontact">
-              <h4 class="sosial">Contact Us</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="uc">info@findhouse.com</a></li>
-                <li>
-                  <a href="#" class="uc">Collins Street West, Victoria</a>
-                </li>
-                <li><a href="#" class="uc">8007, Australia.</a></li>
-                <li><a href="#" class="uc">+1 246-345-0699</a></li>
-                <li><a href="#" class="uc">+1 246-345-0695</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="footersocial">
-              <h4 class="sosial">Follow us</h4>
-              <ul class="mb30">
-                <li class="list-inline-item">
-                  <a href="#" class="uc"><i class="fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" class="uc"><i class="fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" class="uc"><i class="fa fa-instagram"></i></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" class="uc"><i class="fa fa-pinterest"></i></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" class="uc"><i class="fa fa-dribbble"></i></a>
-                                                            </li>
-                                                            <li class="list-inline-item">
-                                                                <a href="#" class="uc"><i class="fa fa-google"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                        <h4 class="sosial">Subscribe</h4>
-                                                        <form class="footermail">
-                                                            <div class="form-row align-items-center">
-                                                                <div class="col-auto">
-                                                                    <input type="email" class="form-control salams mb-2" id="inlineFormInput" placeholder="Your email" />
-                                                                </div>
-                                                                <div class="col-auto">
-                                                                    <button type="submit" class="btn btn-primary mb-2">
-                      <i class="fa fa-angle-right"></i>
-                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-    </section>
-    <section class="footerarea" style="padding-top: 40px; padding-bottom: 40px">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-6">
-                    <div class="footerwidget">
-                        <ul>
-                            <li class="list-inline-item">
-                                <a href="#" class="bes">Home</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="bes">Listing</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="bes">Property</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="bes">Pages</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="bes">Blog</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="bes">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-6">
-                    <div class="copyright text-right">
-                        <p class="bes">© 2020 Find House. Made with love.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="acilanhisse">
-        <div class="window">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="head-ul">
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Register</a></li>
-                        </ul>
-                    </div>
-
-
-                    <div class="col-lg-6">
-                        <div class="img-cont">
-                            <img class="img-fluid" src="img/qeydiyyat.jpg" alt="">
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="heading">
-                            <h5>Login</h5>
-                        </div>
-                        <hr class="row">
-                        <div class="col-lg-12">
-                            <button type="button" class="fb btn btn-outline-primary">Login with facebook
-                              <i class="fab fa-facebook-f"></i>
-                          </button>
-                        </div>
-                        <div class="col-lg-12">
-                            <button type="button" class="fb btn btn-outline-danger">Login with facebook
-                              <i class="fab fa-google"></i>
-                          </button>
-                        </div>
-
-                        <hr class="login-hr">
-                        </hr>
-
-                        <div class="input-login">
-                            <input type="text" name="" id="" placeholder="User Name or Email">
-                            <i class="far fa-user"></i>
-                        </div>
-
-                        <div class="input-ps">
-                            <input type="password" name="" id="" placeholder="Password">
-                            <i class="fas fa-unlock-alt"></i>
-                        </div>
-
-                        <div class="remember-me">
-                            <div class="checkbox">
-                                <input type="checkbox" name="check" id="check">
-                                <label for="check">Remember me</label>
-                            </div>
-                            <a href="#">Lost yout password?</a>
-                        </div>
-
-                        <button type="button" class="btn btn-danger btn-lg btn-block mt-4">Log In</button>
-                    </div>
-                </div>
-            </div>
-            <div class="qapananhisse">
-                <i class="fas fa-times"></i>
-            </div>
-        </div>
-
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
-    <script src="js/grid3.js "></script>
+  </section>
+  <section class=" footerarea " style=" padding-top: 40px; padding-bottom: 40px ">
+    <div class=" container ">
+      <div class=" row ">
+        <div class=" col-lg-6 col-xl-6 ">
+          <div class=" footerwidget ">
+            <ul>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" bes ">Home</a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" bes ">Listing</a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" bes ">Property</a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" bes ">Pages</a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" bes ">Blog</a>
+              </li>
+              <li class=" list-inline-item ">
+                <a href=" # " class=" bes ">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class=" col-lg-6 col-xl-6 ">
+          <div class=" copyright text-right ">
+            <p class=" bes ">© 2020 Find House. Made with love.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class=" acilanhisse ">
+    <div class=" window ">
+      <div class=" container-fluid ">
+        <div class=" row ">
+          <div class=" col-lg-12 ">
+            <ul class=" head-ul ">
+              <li><a href=" # ">Login</a></li>
+              <li><a href=" # ">Register</a></li>
+            </ul>
+          </div>
+
+
+          <div class=" col-lg-6 ">
+            <div class=" img-cont ">
+              <img class=" img-fluid " src=" img/qeydiyyat.jpg " alt=" ">
+            </div>
+
+          </div>
+          <div class=" col-lg-6 ">
+            <div class=" heading ">
+              <h5>Login</h5>
+            </div>
+            <hr class=" row ">
+            <div class=" col-lg-12 ">
+              <button type=" button " class=" fb btn btn-outline-primary ">Login with facebook
+                <i class=" fab fa-facebook-f "></i>
+              </button>
+            </div>
+            <div class=" col-lg-12 ">
+              <button type=" button " class=" fb btn btn-outline-danger ">Login with facebook
+                <i class=" fab fa-google "></i>
+              </button>
+            </div>
+
+            <hr class=" login-hr ">
+            </hr>
+
+            <div class=" input-login ">
+              <input type=" text " name=" " id=" " placeholder=" User Name or Email ">
+              <i class=" far fa-user "></i>
+            </div>
+
+            <div class=" input-ps ">
+              <input type=" password " name=" " id=" " placeholder=" Password ">
+              <i class=" fas fa-unlock-alt "></i>
+            </div>
+
+            <div class=" remember-me ">
+              <div class=" checkbox ">
+                <input type=" checkbox " name=" check " id=" check ">
+                <label for=" check ">Remember me</label>
+              </div>
+              <a href=" # ">Lost yout password?</a>
+            </div>
+
+            <button type=" button " class=" btn btn-danger btn-lg btn-block mt-4 ">Log In</button>
+          </div>
+        </div>
+      </div>
+      <div class=" qapananhisse ">
+        <i class=" fas fa-times "></i>
+      </div>
+    </div>
+
+  </div>
+  <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js "
+    integrity=" sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin=" anonymous ">
+  </script>
+  <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
+    integrity=" sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin=" anonymous ">
+  </script>
+  <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "
+    integrity=" sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin=" anonymous ">
+  </script>
+  <script src=" js/grid3.js "></script>
 </body>
 
 </html>

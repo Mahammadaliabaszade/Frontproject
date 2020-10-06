@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- header basladi -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light desktop-nav">
             <a class="navbar-brand" href="#">
@@ -18,8 +19,8 @@
                 <strong> FindHouse </strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav justify-content-center mt-2" style="width: 100%">
                     <li class="nav-item active">
@@ -42,36 +43,35 @@
                     </li>
                     <li class="yeni-page">
                         <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i
-                >Login/Register
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <nav class="mobile-nav">
-        <div id="menu-bar">
-          <div id="menu" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-          </div>
-          <ul class="nav" id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Listing</a></li>
-            <li><a href="#">Property</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Login/Register</a></li>
-          </ul>
-        </div>
-        <div class="d-flex justify-content-center ag">
-          <a class="navbar-brand sekil" href="#">
-            <img src="img/header-logo.png" class="logos" alt="" />
-            <strong style="color: black"> FindHouse </strong>
-          </a>
-          <i class="fas fa-user"></i>
+                            <i class="far fa-user" style="top: 42%; right: 27%; position: absolute"></i>Login/Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="mobile-nav">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Listing</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login/Register</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center ag">
+                <a class="navbar-brand sekil" href="#">
+                    <img src="img/header-logo.png" class="logos" alt="" />
+                    <strong style="color: black"> FindHouse </strong>
+                </a>
+                <i class="fas fa-user"></i>
             </div>
             <div class="menu-bg" id="menu-bg"></div>
         </nav>
@@ -130,14 +130,14 @@
                                             <div class="candidate_revew_select">
                                                 <div class="dropdown bootstrap-select w100 show-tick" style="margin-bottom: 20px">
                                                     <select class="selectpicker w100 show-tick" tabindex="-98">
-                              <option>All Categories</option>
-                              <option>Apartment</option>
-                              <option>Bungalow</option>
-                              <option>Condo</option>
-                              <option>House</option>
-                              <option>Land</option>
-                              <option>Single Family</option>
-                            </select>
+                                                        <option>All Categories</option>
+                                                        <option>Apartment</option>
+                                                        <option>Bungalow</option>
+                                                        <option>Condo</option>
+                                                        <option>House</option>
+                                                        <option>Land</option>
+                                                        <option>Single Family</option>
+                                                    </select>
 
                                                     <div class="dropdown-menu" role="combobox">
                                                         <div class="inner show" role="listbox" aria-expanded="false" tabindex="-1">
@@ -153,14 +153,14 @@
                                             <div class="candidate_revew_select">
                                                 <div class="dropdown bootstrap-select w100 show-tick">
                                                     <select class="selectpicker w100 show-tick" tabindex="-98">
-                              <option>All Cities</option>
-                              <option>Atlanta</option>
-                              <option>Florida</option>
-                              <option>Los Angeles</option>
-                              <option>Miami</option>
-                              <option>New York</option>
-                              <option>Orlando</option>
-                            </select>
+                                                        <option>All Cities</option>
+                                                        <option>Atlanta</option>
+                                                        <option>Florida</option>
+                                                        <option>Los Angeles</option>
+                                                        <option>Miami</option>
+                                                        <option>New York</option>
+                                                        <option>Orlando</option>
+                                                    </select>
                                                     <div class="dropdown-menu" role="combobox">
                                                         <div class="inner show" role="listbox" aria-expanded="false" tabindex="-1">
                                                             <ul class="dropdown-menu inner show"></ul>
@@ -173,629 +173,572 @@
                                     <li>
                                         <div class="search_option_button" style="margin-top: 10px">
                                             <button type="submit" class="btn btn-block btn-thm">
-                          Search
-                        </button>
+                                                Search
+                                            </button>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <!-- search hiiseden sonra lg4 asagisi -->
+                        <!-- conditin hissesi basladi -->
                         <div class="condition">
                             <h4 class="title">Categories Property</h4>
                             <div class="widget_list">
                                 <ul class="list_details" style="list-style: none; padding: 0%">
                                     <li style="margin-bottom: 5px">
                                         <a href="#" style="color: gray"><i class="fa fa-caret-right mr10"></i>Apartment
-                        <span class="float-right">6 properties</span></a
-                      >
-                    </li>
-                    <li style="margin-bottom: 5px">
-                      <a href="#" style="color: gray"
-                        ><i class="fa fa-caret-right mr10"></i>Condo
-                        <span class="float-right">12 properties</span></a
-                      >
-                    </li>
-                    <li style="margin-bottom: 5px">
-                      <a href="#" style="color: gray"
-                        ><i class="fa fa-caret-right mr10"></i>Family House
-                        <span class="float-right">8 properties</span></a
-                      >
-                    </li>
-                    <li style="margin-bottom: 5px">
-                      <a href="#" style="color: gray"
-                        ><i class="fa fa-caret-right mr10"></i>Modern Villa
-                        <span class="float-right">26 properties</span></a
-                      >
-                    </li>
-                    <li style="margin-bottom: 5px">
-                      <a href="#" style="color: gray"
-                        ><i class="fa fa-caret-right mr10"></i>Town House
-                        <span class="float-right">89 properties</span></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="feature">
-                <h4 class="title">Featured Listings</h4>
-                <div class="media">
-                  <img
-                    class="align-self-start mr-3"
-                    src="img/fls1.jpg"
-                    alt="fls1.jpg"
-                  />
-                  <div class="media-body">
-                    <h5 class="mt-0 post_title">Nice Room With View</h5>
-                    <a href="#" style="color: red"
-                      >$13,000/<small>/mo</small></a
-                    >
-                    <ul class="mb0">
-                      <li class="list-inline-item">Beds: 4</li>
-                      <li class="list-inline-item">Baths: 2</li>
-                      <li class="list-inline-item">Sq Ft: 5280</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="media">
-                  <img
-                    class="align-self-start mr-3"
-                    src="img/fls1.jpg"
-                    alt="fls2.jpg"
-                  />
-                  <div class="media-body">
-                    <h5 class="mt-0 post_title">Villa called Archangel</h5>
-                    <a href="#" style="color: red">$13,000<small>/mo</small></a>
-                                        <ul class="mb0">
-                                            <li class="list-inline-item">Beds: 4</li>
-                                            <li class="list-inline-item">Baths: 2</li>
-                                            <li class="list-inline-item">Sq Ft: 5280</li>
-                                        </ul>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <img class="align-self-start mr-3" src="img/fls1.jpg" alt="fls3.jpg" />
-                            <div class="media-body">
-                                <h5 class="mt-0 post_title">Sunset Studio</h5>
-                                <a href="#" style="color: red">$13,000<small>/mo</small></a>
-                                <ul class="mb0">
-                                    <li class="list-inline-item">Beds: 4</li>
-                                    <li class="list-inline-item">Baths: 2</li>
-                                    <li class="list-inline-item">Sq Ft: 5280</li>
+                                            <span class="float-right">6 properties</span></a>
+                                    </li>
+                                    <li style="margin-bottom: 5px">
+                                        <a href="#" style="color: gray"><i class="fa fa-caret-right mr10"></i>Condo
+                                            <span class="float-right">12 properties</span></a>
+                                    </li>
+                                    <li style="margin-bottom: 5px">
+                                        <a href="#" style="color: gray"><i class="fa fa-caret-right mr10"></i>Family
+                                            House
+                                            <span class="float-right">8 properties</span></a>
+                                    </li>
+                                    <li style="margin-bottom: 5px">
+                                        <a href="#" style="color: gray"><i class="fa fa-caret-right mr10"></i>Modern
+                                            Villa
+                                            <span class="float-right">26 properties</span></a>
+                                    </li>
+                                    <li style="margin-bottom: 5px">
+                                        <a href="#" style="color: gray"><i class="fa fa-caret-right mr10"></i>Town House
+                                            <span class="float-right">89 properties</span></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-12">
-                    <div class="row">
-                        <div class="grid_list_search_result style2">
-                            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
-                                <div class="left_area">
-                                    <p>9 Search results</p>
+                        <!-- condition hissesi bitdi -->
+                        <!-- feature husssesi basladi -->
+                        <div class="feature">
+                            <h4 class="title">Featured Listings</h4>
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="img/fls1.jpg" alt="fls1.jpg" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 post_title">Nice Room With View</h5>
+                                    <a href="#" style="color: red">$13,000/<small>/mo</small></a>
+                                    <ul class="mb0">
+                                        <li class="list-inline-item">Beds: 4</li>
+                                        <li class="list-inline-item">Baths: 2</li>
+                                        <li class="list-inline-item">Sq Ft: 5280</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9">
-                                <div class="right_area style2 text-right">
-                                    <ul>
-                                        <li class="list-inline-item">
-                                            <span class="shrtby">Sort by:</span>
-                                            <div class="dropdown bootstrap-select show-tick">
-                                                <select class="selectpicker show-tick" tabindex="-98">
-                              <option>Featured First</option>
-                              <option>Featured 2nd</option>
-                              <option>Featured 3rd</option>
-                              <option>Featured 4th</option>
-                              <option>Featured 5th</option>
-                            </select>
-                                                <div class="dropdown-menu" role="combobox">
-                                                    <div class="inner show" role="listbox" aria-expanded="false" tabindex="-1">
-                                                        <ul class="dropdown-menu inner show"></ul>
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="img/fls1.jpg" alt="fls2.jpg" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 post_title">Villa called Archangel</h5>
+                                    <a href="#" style="color: red">$13,000<small>/mo</small></a>
+                                    <ul class="mb0">
+                                        <li class="list-inline-item">Beds: 4</li>
+                                        <li class="list-inline-item">Baths: 2</li>
+                                        <li class="list-inline-item">Sq Ft: 5280</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="img/fls1.jpg" alt="fls3.jpg" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 post_title">Sunset Studio</h5>
+                                    <a href="#" style="color: red">$13,000<small>/mo</small></a>
+                                    <ul class="mb0">
+                                        <li class="list-inline-item">Beds: 4</li>
+                                        <li class="list-inline-item">Baths: 2</li>
+                                        <li class="list-inline-item">Sq Ft: 5280</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature hissesi bitir -->
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="row">
+                            <div class="grid_list_search_result style2">
+                                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                                    <div class="left_area">
+                                        <p>9 Search results</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9">
+                                    <div class="right_area style2 text-right">
+                                        <ul>
+                                            <li class="list-inline-item">
+                                                <span class="shrtby">Sort by:</span>
+                                                <div class="dropdown bootstrap-select show-tick">
+                                                    <select class="selectpicker show-tick" tabindex="-98">
+                                                        <option>Featured First</option>
+                                                        <option>Featured 2nd</option>
+                                                        <option>Featured 3rd</option>
+                                                        <option>Featured 4th</option>
+                                                        <option>Featured 5th</option>
+                                                    </select>
+                                                    <div class="dropdown-menu" role="combobox">
+                                                        <div class="inner show" role="listbox" aria-expanded="false" tabindex="-1">
+                                                            <ul class="dropdown-menu inner show"></ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- agent kartinka baslayan hisseler -->
+                            <div class="col-lg-6 col-md-6">
+                                <div class="umumikartinka agentsekli">
+                                    <div class="agentsek">
+                                        <img src="img/agent1.jpg" alt="" class="agent1" />
+                                        <div class="listingss">
+                                            <ul class="listin">
+                                                <li class="listinli">
+                                                    <a href="" class="listina"> 2 Listings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="agentsoz">
+                                        <div class="mezmun" style="padding: 20px">
+                                            <h4 class="chris">Christopher Pakulla</h4>
+                                            <p class="text-thm">Agent</p>
+                                            <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Office: 134 456 3210</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Fax: 342 654 1258</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="elaqeagent">
+                                            <ul class="float-left mb0">
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-facebook"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-twitter"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-instagram"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-pinterest"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-google"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="fp_pdate float-right text-thm">
+                                                View My Listings <i class="fa fa-angle-right"></i>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="umumikartinka agentsekli">
+                                    <div class="agentsek">
+                                        <img src="img/agent2.jpg" alt="" class="agent1" />
+                                        <div class="listingss">
+                                            <ul class="listin">
+                                                <li class="listinli">
+                                                    <a href="" class="listina"> 2 Listings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="agentsoz">
+                                        <div class="mezmun" style="padding: 20px">
+                                            <h4 class="chris">Christopher Pakulla</h4>
+                                            <p class="text-thm">Agent</p>
+                                            <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Office: 134 456 3210</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Fax: 342 654 1258</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="elaqeagent">
+                                            <ul class="float-left mb0">
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-facebook"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-twitter"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-instagram"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-pinterest"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-google"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="fp_pdate float-right text-thm">
+                                                View My Listings <i class="fa fa-angle-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="umumikartinka agentsekli">
+                                    <div class="agentsek">
+                                        <img src="img/agent3.jpg" alt="" class="agent1" />
+                                        <div class="listingss">
+                                            <ul class="listin">
+                                                <li class="listinli">
+                                                    <a href="" class="listina"> 2 Listings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="agentsoz">
+                                        <div class="mezmun" style="padding: 20px">
+                                            <h4 class="chris">Christopher Pakulla</h4>
+                                            <p class="text-thm">Agent</p>
+                                            <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Office: 134 456 3210</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Fax: 342 654 1258</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="elaqeagent">
+                                            <ul class="float-left mb0">
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-facebook"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-twitter"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-instagram"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-pinterest"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-google"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="fp_pdate float-right text-thm">
+                                                View My Listings <i class="fa fa-angle-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="umumikartinka agentsekli">
+                                    <div class="agentsek">
+                                        <img src="img/agent4.jpg" alt="" class="agent1" />
+                                        <div class="listingss">
+                                            <ul class="listin">
+                                                <li class="listinli">
+                                                    <a href="" class="listina"> 2 Listings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="agentsoz">
+                                        <div class="mezmun" style="padding: 20px">
+                                            <h4 class="chris">Christopher Pakulla</h4>
+                                            <p class="text-thm">Agent</p>
+                                            <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Office: 134 456 3210</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Fax: 342 654 1258</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="elaqeagent">
+                                            <ul class="float-left mb0">
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-facebook"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-twitter"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-instagram"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-pinterest"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-google"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="fp_pdate float-right text-thm">
+                                                View My Listings <i class="fa fa-angle-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="umumikartinka agentsekli">
+                                    <div class="agentsek">
+                                        <img src="img/agent5.jpg" alt="" class="agent1" />
+                                        <div class="listingss">
+                                            <ul class="listin">
+                                                <li class="listinli">
+                                                    <a href="" class="listina"> 2 Listings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="agentsoz">
+                                        <div class="mezmun" style="padding: 20px">
+                                            <h4 class="chris">Christopher Pakulla</h4>
+                                            <p class="text-thm">Agent</p>
+                                            <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Office: 134 456 3210</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Fax: 342 654 1258</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="elaqeagent">
+                                            <ul class="float-left mb0">
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-facebook"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-twitter"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-instagram"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-pinterest"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-google"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="fp_pdate float-right text-thm">
+                                                View My Listings <i class="fa fa-angle-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="umumikartinka agentsekli">
+                                    <div class="agentsek">
+                                        <img src="img/agent6.jpg" alt="" class="agent1" />
+                                        <div class="listingss">
+                                            <ul class="listin">
+                                                <li class="listinli">
+                                                    <a href="" class="listina"> 2 Listings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="agentsoz">
+                                        <div class="mezmun" style="padding: 20px">
+                                            <h4 class="chris">Christopher Pakulla</h4>
+                                            <p class="text-thm">Agent</p>
+                                            <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Office: 134 456 3210</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Fax: 342 654 1258</a>
+                                                </li>
+                                                <li style="margin-right: 30px">
+                                                    <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="elaqeagent">
+                                            <ul class="float-left mb0">
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-facebook"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-twitter"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-instagram"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-pinterest"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#" class="ikons"><i class="fa fa-google"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="fp_pdate float-right text-thm">
+                                                View My Listings <i class="fa fa-angle-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- pagination hiisesi basladi -->
+                            <div class="col-lg-12">
+                                <div class="mbp_pagination mt20">
+                                    <ul class="page_navigation">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                                <i class="fas fa-arrow-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="page-item active" aria-current="page">
+                                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">...</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">29</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">
+                                                <i class="fas fa-arrow-right"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <!-- agent kartinka baslayan hisseler -->
-                        <div class="col-lg-6 col-md-6">
-                            <div class="umumikartinka agentsekli">
-                                <div class="agentsek">
-                                    <img src="img/agent1.jpg" alt="" class="agent1" />
-                                    <div class="listingss">
-                                        <ul class="listin">
-                                            <li class="listinli">
-                                                <a href="" class="listina"> 2 Listings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="agentsoz">
-                                    <div class="mezmun" style="padding: 20px">
-                                        <h4 class="chris">Christopher Pakulla</h4>
-                                        <p class="text-thm">Agent</p>
-                                        <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Office: 134 456 3210</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Fax: 342 654 1258</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="elaqeagent">
-                        <ul class="float-left mb0">
-                          <li class="list-inline-item">
-                            <a href="#" class="ikons"
-                              ><i class="fa fa-facebook"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-twitter"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-instagram"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-pinterest"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-google"></i
-                            ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="fp_pdate float-right text-thm">
-                                            View My Listings <i class="fa fa-angle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="umumikartinka agentsekli">
-                                <div class="agentsek">
-                                    <img src="img/agent2.jpg" alt="" class="agent1" />
-                                    <div class="listingss">
-                                        <ul class="listin">
-                                            <li class="listinli">
-                                                <a href="" class="listina"> 2 Listings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="agentsoz">
-                                    <div class="mezmun" style="padding: 20px">
-                                        <h4 class="chris">Christopher Pakulla</h4>
-                                        <p class="text-thm">Agent</p>
-                                        <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Office: 134 456 3210</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Fax: 342 654 1258</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="elaqeagent">
-                        <ul class="float-left mb0">
-                          <li class="list-inline-item">
-                            <a href="#" class="ikons"
-                              ><i class="fa fa-facebook"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-twitter"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-instagram"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-pinterest"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-google"></i
-                            ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="fp_pdate float-right text-thm">
-                                            View My Listings <i class="fa fa-angle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="umumikartinka agentsekli">
-                                <div class="agentsek">
-                                    <img src="img/agent3.jpg" alt="" class="agent1" />
-                                    <div class="listingss">
-                                        <ul class="listin">
-                                            <li class="listinli">
-                                                <a href="" class="listina"> 2 Listings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="agentsoz">
-                                    <div class="mezmun" style="padding: 20px">
-                                        <h4 class="chris">Christopher Pakulla</h4>
-                                        <p class="text-thm">Agent</p>
-                                        <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Office: 134 456 3210</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Fax: 342 654 1258</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="elaqeagent">
-                        <ul class="float-left mb0">
-                          <li class="list-inline-item">
-                            <a href="#" class="ikons"
-                              ><i class="fa fa-facebook"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-twitter"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-instagram"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-pinterest"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-google"></i
-                            ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="fp_pdate float-right text-thm">
-                                            View My Listings <i class="fa fa-angle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="umumikartinka agentsekli">
-                                <div class="agentsek">
-                                    <img src="img/agent4.jpg" alt="" class="agent1" />
-                                    <div class="listingss">
-                                        <ul class="listin">
-                                            <li class="listinli">
-                                                <a href="" class="listina"> 2 Listings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="agentsoz">
-                                    <div class="mezmun" style="padding: 20px">
-                                        <h4 class="chris">Christopher Pakulla</h4>
-                                        <p class="text-thm">Agent</p>
-                                        <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Office: 134 456 3210</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Fax: 342 654 1258</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="elaqeagent">
-                        <ul class="float-left mb0">
-                          <li class="list-inline-item">
-                            <a href="#" class="ikons"
-                              ><i class="fa fa-facebook"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-twitter"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-instagram"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-pinterest"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-google"></i
-                            ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="fp_pdate float-right text-thm">
-                                            View My Listings <i class="fa fa-angle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="umumikartinka agentsekli">
-                                <div class="agentsek">
-                                    <img src="img/agent5.jpg" alt="" class="agent1" />
-                                    <div class="listingss">
-                                        <ul class="listin">
-                                            <li class="listinli">
-                                                <a href="" class="listina"> 2 Listings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="agentsoz">
-                                    <div class="mezmun" style="padding: 20px">
-                                        <h4 class="chris">Christopher Pakulla</h4>
-                                        <p class="text-thm">Agent</p>
-                                        <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Office: 134 456 3210</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Fax: 342 654 1258</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="elaqeagent">
-                        <ul class="float-left mb0">
-                          <li class="list-inline-item">
-                            <a href="#" class="ikons"
-                              ><i class="fa fa-facebook"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-twitter"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-instagram"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-pinterest"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-google"></i
-                            ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="fp_pdate float-right text-thm">
-                                            View My Listings <i class="fa fa-angle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="umumikartinka agentsekli">
-                                <div class="agentsek">
-                                    <img src="img/agent6.jpg" alt="" class="agent1" />
-                                    <div class="listingss">
-                                        <ul class="listin">
-                                            <li class="listinli">
-                                                <a href="" class="listina"> 2 Listings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="agentsoz">
-                                    <div class="mezmun" style="padding: 20px">
-                                        <h4 class="chris">Christopher Pakulla</h4>
-                                        <p class="text-thm">Agent</p>
-                                        <ul class="mezmun2 mb0" style="list-style: none; padding-left: 3px">
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Office: 134 456 3210</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Mobile: 891 456 9874</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Fax: 342 654 1258</a>
-                                            </li>
-                                            <li style="margin-right: 30px">
-                                                <a href="#" class="mezmun3">Email: pakulla@findhouse.com</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="elaqeagent">
-                        <ul class="float-left mb0">
-                          <li class="list-inline-item">
-                            <a href="#" class="ikons"
-                              ><i class="fa fa-facebook"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-twitter"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-instagram"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-pinterest"></i
-                            ></a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="#" class="ikons"><i class="fa fa-google"></i
-                            ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="fp_pdate float-right text-thm">
-                                            View My Listings <i class="fa fa-angle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mbp_pagination mt20">
-                                <ul class="page_navigation">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                            <i class="fas fa-arrow-left"></i>
-                                        </a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item active" aria-current="page">
-                                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a
-                        >
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">...</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">29</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">
-                                            <i class="fas fa-arrow-right"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- footer hissenin kodlari -->
-      <section class="footerhisse">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
-              <div class="footerabout">
-                <h4 class="sosial">About Site</h4>
-                <p class="dord">
-                  We’re reimagining how you buy, sell and rent. It’s now easier
-                  to get into a place you love. So let’s do this, together.
-                </p>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-              <div class="footerqlink">
-                <h4 class="sosial">Quick Links</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="uc">About Us</a></li>
-                  <li><a href="#" class="uc">Terms &amp; Conditions</a></li>
-                  <li><a href="#" class="uc">User’s Guide</a></li>
-                  <li><a href="#" class="uc">Support Center</a></li>
-                  <li><a href="#" class="uc">Press Info</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-              <div class="footercontact">
-                <h4 class="sosial">Contact Us</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="uc">info@findhouse.com</a></li>
-                  <li>
-                    <a href="#" class="uc">Collins Street West, Victoria</a>
-                  </li>
-                  <li><a href="#" class="uc">8007, Australia.</a></li>
-                  <li><a href="#" class="uc">+1 246-345-0699</a></li>
-                  <li><a href="#" class="uc">+1 246-345-0695</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-              <div class="footersocial">
-                <h4 class="sosial">Follow us</h4>
-                <ul class="mb30">
-                  <li class="list-inline-item">
-                    <a href="#" class="uc"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="uc"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="uc"><i class="fa fa-instagram"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="uc"><i class="fa fa-pinterest"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="uc"><i class="fa fa-dribbble"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="uc"><i class="fa fa-google"></i></a>
-                                    </li>
-                                </ul>
-                                <h4 class="sosial">Subscribe</h4>
-                                <form class="footermail">
-                                    <div class="form-row align-items-center">
-                                        <div class="col-auto">
-                                            <input type="email" class="form-control salams mb-2" id="inlineFormInput" placeholder="Your email" />
-                                        </div>
-                                        <div class="col-auto">
-                                            <button type="submit" class="btn btn-primary mb-2">
-                        <i class="fa fa-angle-right"></i>
-                      </button>
-                                        </div>
+        </section>
+        <!-- footer hissenin kodlari -->
+        <section class="footerhisse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
+                        <div class="footerabout">
+                            <h4 class="sosial">About Site</h4>
+                            <p class="dord">
+                                We’re reimagining how you buy, sell and rent. It’s now easier to get into a place you love. So let’s do this, together.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="footerqlink">
+                            <h4 class="sosial">Quick Links</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="uc">About Us</a></li>
+                                <li><a href="#" class="uc">Terms &amp; Conditions</a></li>
+                                <li><a href="#" class="uc">User’s Guide</a></li>
+                                <li><a href="#" class="uc">Support Center</a></li>
+                                <li><a href="#" class="uc">Press Info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="footercontact">
+                            <h4 class="sosial">Contact Us</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="uc">info@findhouse.com</a></li>
+                                <li>
+                                    <a href="#" class="uc">Collins Street West, Victoria</a>
+                                </li>
+                                <li><a href="#" class="uc">8007, Australia.</a></li>
+                                <li><a href="#" class="uc">+1 246-345-0699</a></li>
+                                <li><a href="#" class="uc">+1 246-345-0695</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="footersocial">
+                            <h4 class="sosial">Follow us</h4>
+                            <ul class="mb30">
+                                <li class="list-inline-item">
+                                    <a href="#" class="uc"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="uc"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="uc"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="uc"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="uc"><i class="fa fa-dribbble"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="uc"><i class="fa fa-google"></i></a>
+                                </li>
+                            </ul>
+                            <h4 class="sosial">Subscribe</h4>
+                            <form class="footermail">
+                                <div class="form-row align-items-center">
+                                    <div class="col-auto">
+                                        <input type="email" class="form-control salams mb-2" id="inlineFormInput" placeholder="Your email" />
                                     </div>
-                                </form>
-                            </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-primary mb-2">
+                                            <i class="fa fa-angle-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- footer bir bitdi -->
 
@@ -904,9 +847,12 @@
         </div>
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
     <script src="js/agent4.js"></script>
 </body>
 
